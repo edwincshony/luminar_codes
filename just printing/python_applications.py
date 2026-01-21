@@ -1,0 +1,7 @@
+print("data science")
+print("full stack web development")
+print("Games development")
+print("AI")
+print("machine learning")
+print("Internet of things IoT")
+print("Big data")

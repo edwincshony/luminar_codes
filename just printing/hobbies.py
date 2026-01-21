@@ -1,0 +1,5 @@
+print("My Hobbies")
+print("Traveling")
+print("Youtube Watching")
+print("Listen to music")
+print("watching movies")

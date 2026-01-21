@@ -1,0 +1,37 @@
+Foods:
+
+    breakfast:
+        idli
+        dosa
+        poori
+    
+    lunch:
+        chicken biriyani
+        fried rice
+        veg rice
+    
+    snacks:
+        cutlet
+
+    dinner:
+        porotta chicken
+        burger
+        shawarma
+
+
+Movies:
+
+    Malayalam:
+        eko
+        kalamkaval
+        AK
+    
+    Tamil:
+        varanayiram
+        irumbu thirai
+        Coolie
+    
+    Kaanada:
+        kan1
+        kan2
+        kan3
