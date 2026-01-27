@@ -11,3 +11,14 @@ match number:
         print(number, "is negative")
     case 0:
         print("zero")
+
+# match number:
+#     case 0: print("zero")
+
+#     case _ if number < 0: print("-ve")
+
+#     case _ if number > 0: print("+ve")
+
+#     case _:
+
+#         print("invalid")
