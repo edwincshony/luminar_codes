@@ -3,6 +3,11 @@
 
 """
 
+"""
+“If I need digit 1 → use != 0
+If 1 does nothing → use > 1”
+"""
+
 number = int(input("enter number: "))
 
 org_number = number
