@@ -26,3 +26,19 @@ if age >= 18:
         print("invalid")
 else:
     print("Not eligible to watch the movie")
+
+
+#sajay sir code
+
+available_seats = 14
+
+age = int(input("enter age: "))
+
+if age >= 18:
+    seat_count = input("enter no of seat: ")
+    if seat_count <= available_seats:
+        print("Ticket booked")
+    else:
+        print("House full")
+else:
+    print("Not eligible to watch the movie")

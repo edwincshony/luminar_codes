@@ -14,3 +14,17 @@ Else:
     "Wrong pattern"
 """
 
+db_pattern = "v"
+
+db_fingerprint = "zzzzvvvv"
+
+user_pattern = input("enter pattern: ")
+
+if db_pattern == user_pattern:
+    user_fingerprint = input("enter fingerprint: ")
+    if db_fingerprint == user_fingerprint:
+        print("Phone unlocked")
+    else:
+        print("Fingerprint mismatch")
+else:
+    print("Wrong pattern")
