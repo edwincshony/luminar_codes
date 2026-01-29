@@ -1,13 +1,15 @@
 """
-4. Write a program to calculate the sum of numbers from 1 to 50 using a while loop.
+4. Write a program to calculate the sum of numbers from 1 to a number using a while loop.
 
 """
+
+num = int(input("enter number: "))
 
 i = 1
 
 sum = 0
 
-while(i<=50):
+while(i<=num):
 
     sum = sum + i
     
