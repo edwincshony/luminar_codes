@@ -1,0 +1,15 @@
+"""
+15. Find the sum of numbers from 1 to 10 using a while loop.
+"""
+
+i = 1
+
+s = 0
+
+while(i<=10):
+
+    s = s + i
+     
+    i += 1
+
+print(s)
