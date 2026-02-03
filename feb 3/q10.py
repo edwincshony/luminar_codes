@@ -8,6 +8,10 @@ count = 0
 
 for i in str(number):
 
+    # print(i)
+
+    # print(type(i))
+
     count += 1
 
 print(count)
