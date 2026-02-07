@@ -1,15 +1,11 @@
-for row in range(6,0,-1):
+for row in range(6,1,-1):
 
-    for sp in range(1,7-row+1):
+    for sp in range(0,6-row):
 
         print(" ",end="")
-    
 
-    for col in range(4,0,-1):
+    for col in range(1,9):
 
-        print("* ",end="")
+        print("*",end="")
 
     print()
-
-   
-    
