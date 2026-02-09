@@ -16,8 +16,40 @@ my_function("Emil") # "Emil" is an argument
 Function Types
 
 1. function with no parameter and no return value
+
+def greet():
+    print("Hello")
+
+greet()
+
+Parameters: none
+
+Return value: none (None implicitly)
+
 2. function with parameter and no return value
+
+def greet(name):
+    print("Hello", name)
+
+greet("Alice")
+
+Parameters: name
+
+Return value: none (None implicitly)
+
 3. function with parameter and return value
+
+def add(a, b):
+    return a + b
+
+result = add(2, 3)
+print(result)
+
+Parameters: a, b
+
+Return value: a + b
+
+return immediately exits the function — even if it’s inside a loop
 
 """
 
