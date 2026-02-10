@@ -9,7 +9,13 @@ def my_function(name): # name is a parameter
   print("Hello", name)
 
 my_function("Emil") # "Emil" is an argument
+
+Use return when you are done with the function
+Use break when you are done with the loop but not the function
+
 """
+
+
 
 """
 
@@ -79,3 +85,11 @@ def say_morning():
 say_morning()
 
 from builtins import * # to see all functions in builtin hold ctrl and press on builtins
+
+"""
+*args, ** kwargs
+
+
+"""
+
+

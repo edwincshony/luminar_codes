@@ -21,3 +21,39 @@ def subtraction(num1,num2):
 # print(subtraction(100,80)) #this is wrong 
 
 subtraction(100,80)
+
+
+"""
+find whether number exist in fibonacci series
+"""
+
+def is_fibonacci_number(number):
+
+    is_fibo = False
+
+    prev = 0
+
+    current = 1
+
+    next = prev + current
+
+    while(next<=number):
+
+        next = prev + current
+
+        prev = current
+
+        current = next
+
+        if next == number:
+
+            is_fibo = True
+
+            break
+
+    return is_fibo
+
+
+print(is_fibonacci_number(3))  #True
+print(is_fibonacci_number(12))  #False
+
