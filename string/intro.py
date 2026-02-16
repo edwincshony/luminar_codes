@@ -8,6 +8,8 @@ number = 732
 is_active = True
 avg = 4.6
 
+#string is immutable (can not be changed)
+
 # Checking data types
 print(type(address))     # <class 'str'> # 'address' is an object of class str
 print(type(number))      # <class 'int'> # 'number' is an object of class int
@@ -19,7 +21,7 @@ print(type(avg))         # <class 'float'> # 'avg' is an object of class float
 # String object and methods
 # -----------------------------
 
-word = "luminarch Technolab Technohub"
+word = "           luminarch Technolab Technohub             "
 
 # 'word' is an object of class str
 # Methods like upper(), casefold(), find(), etc. belong to the str class
@@ -51,7 +53,36 @@ class str:
     def count(self, substr):
         # Return number of occurrences of substr
         pass
+    
+    def isalpha():
+        # return true if str object is an alphabet otherwise false
+        pass
+        
+    def isdigit():
+        # return true if str object is an digit otherwise false
+        pass
+    
+    def isalnum():
+        # return true if str object is an alphanumeric otherwise false
+        pass
+        
+    def startswith(self,prefix):
+        # return true if str starts with prefix otherwise false
+        pass
+
+    def endswith(self,suffix):
+        # return true if str ends with suffix otherwise false
+        pass
+        
+    def strip(self):
+        # remove space from left and right ends
+        pass
+        
+    def lstrip(self)
+
+    def rstrip(self)
 """
+
 
 
 # -----------------------------
@@ -65,6 +96,33 @@ print(word.index("lu"))      # Index of "lu" from the left; raises ValueError if
 print(word.find("lu"))       # Index of "lu" from the left; returns -1 if not found
 print(word.rfind("ch"))      # Index of "ch" from the right; returns -1 if not found
 print(word.count("Tech"))    # Number of times "Tech" appears
+print(word.isalpha())    # Returns True if all characters are letters and string is not empty
 
+print(word.isdigit())    # Returns True if all characters are digits and string is not empty
+
+print(word.isalnum())    # Returns True if all characters are letters or digits and string is not empty
+
+print(word.startswith("lu"))
+print(word.endswith("hub"))
+print(word.strip()) # word = "           luminarch Technolab Technohub             " output: luminarch Technolab Technohub 
+
+text = "hello world"
+
+# text[0] = "p" #can not update
+
+new_string = text.capitalize() # text variable untouched 
+
+print(new_string) 
+
+
+word_name = "\tluminar technolab\n"
+
+
+new_word = word_name.lstrip()
+new_word = new_word.rstrip()
+
+print(new_word)
+
+print(dir(list))
 
 

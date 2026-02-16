@@ -18,7 +18,7 @@ class Person():
 
 
 edwin_instance = Person()
-# variable_name = ClassName()
+# instance_name = ClassName()
 # Creates an object (instance) of the Person class.
 # The variable edwin_instance now refers to this object in memory.
 
