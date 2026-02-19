@@ -19,3 +19,9 @@ if result == word:
 else:
 
     print("not palindrome")
+
+
+
+
+
+
