@@ -3,6 +3,17 @@
     (without sorting).
 """
 
+#elif used to prevent below issues
+"""
+So when a number is:
+
+less than largest
+
+but greater than second_largest
+
+👉 It is ignored.
+"""
+
 # Sample list (you can change this)
 numbers = [14, 46, 47, 86, 92, 52, 48, 36, 66, 85]
 
@@ -14,7 +25,8 @@ second_largest = float('-inf')
 for num in numbers:
     if num > largest:
         second_largest = largest
-        largest = num
+        largest = num 
+
     elif num > second_largest and num != largest:
         second_largest = num
 
