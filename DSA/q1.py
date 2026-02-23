@@ -14,7 +14,7 @@ sample input2:
 sample input3:
     lst=[1,2,3,4,5]
     o/p=>6
-"""
+ """
 # first approach
 
 lst = [1,2,3,4,5]
@@ -36,12 +36,12 @@ else:
     print(len(lst)+1,"is missing")
 
 
-# second approach
+#second approach
 
 lst = [2,3,4,5]
 lst.sort()
 print(lst)
-for i in range(len(lst)-1):
+for i in range(0,len(lst)-1):
 
     difference = lst[i+1] - lst[i] 
 
@@ -62,5 +62,49 @@ while True:
         break
     i += 1
 
+def missing_least_number(arr):
 
+    arr.sort()
+
+    prev = 0
+
+    next = prev + 1
+
+    while(prev<len(arr)-1):
+
+        diff = arr[next] - arr[prev]
+
+        if diff != 1:
+
+            print(arr[prev]+1,"is missing")
+
+            break
+
+
+        prev += 1
+
+        next = prev + 1
+
+missing_least_number([1,2,4,5]) 
+
+
+def missing_least_number(arr):
+
+    arr.sort()
+
+    for prev in range(0,len(arr)-1):
+        next = prev + 1
+        diff = arr[next] - arr[prev]
+
+        if diff != 1:
+
+            print(arr[prev]+1,"is missing")
+
+            break
+
+    else:
+
+        print(arr[-1]+1,"is missing")
+
+missing_least_number([1,2,3,4,5]) 
 
