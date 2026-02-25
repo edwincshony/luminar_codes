@@ -39,13 +39,13 @@ yash_movies = [lst[1] for lst in movies if lst[2] == "Yash"]
 language_list = [lst[3] for lst in movies]
 print(language_list)
 
-mov_count = {lst[3]:language_list.count(lst[3]) for lst in movies}
+language_counts  = {lst[3]:language_list.count(lst[3]) for lst in movies}
 
-print(mov_count)
+print(language_counts )
 
-language_most_number_of_movies = max(mov_count)
+most_common_language  = max(language_counts , key=language_counts .get)
 
-print("language most number of movies: ",language_most_number_of_movies)
+print("Language with most movies: ",most_common_language )
 # movie with max budget
 
 max_budget = max([lst[5] for lst in movies])
