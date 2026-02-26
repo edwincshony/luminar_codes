@@ -41,11 +41,17 @@ print(language_list)
 
 language_counts  = {lst[3]:language_list.count(lst[3]) for lst in movies}
 
-print(language_counts )
+print("language counts (try): ",language_counts )
 
-most_common_language  = max(language_counts , key=language_counts .get)
+language_count_list = [[v,k] for k,v in language_counts.items()]
 
-print("Language with most movies: ",most_common_language )
+# print(sorted(language_count_list,reverse=True)[0][1]) #Kannada
+print(sorted(language_count_list,reverse=True))
+
+# most_common_language  = max(language_counts , key=language_counts .get) # chatgpt approach limitation only gives highest
+
+# print("Language with most movies: ",most_common_language )
+print("----------")
 # movie with max budget
 
 max_budget = max([lst[5] for lst in movies])
