@@ -1,6 +1,6 @@
-fr_all_students = open("file_operations\\failed students detector\\all_students.txt","r")
-fr_passes_students = open("file_operations\\failed students detector\\passed_students.txt","r")
-fr_failed_students = open("file_operations\\failed students detector\\failed_students.txt","w")
+fr_all_students = open("12.file_operations\\failed students detector\\all_students.txt","r")
+fr_passes_students = open("12.file_operations\\failed students detector\\passed_students.txt","r")
+fr_failed_students = open("12.file_operations\\failed students detector\\failed_students.txt","w")
 
 all_students_list = set([line.rstrip("\n")  for line in fr_all_students])
 passes_students_list = set([line.rstrip("\n")  for line in fr_passes_students])

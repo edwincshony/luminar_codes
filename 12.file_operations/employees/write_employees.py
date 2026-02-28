@@ -1,6 +1,6 @@
 employees = ["hari","dijo","alan","akshay"]
 
-fw = open("file_operations\\employees\\employees.txt","w")
+fw = open("12.file_operations\\employees\\employees.txt","w")
 
 
 for e in employees:
