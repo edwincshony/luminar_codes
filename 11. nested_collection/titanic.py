@@ -56,7 +56,7 @@ print(f"Survived female count: {len(survived_ppl_female)}")
 
 # q7:top fare
 
-top_fare = max([di.get("fare") for di in titanic_data])
+top_fare = max([di.get("fare",0) for di in titanic_data])
 
 print("Top fare: ",top_fare)
 
