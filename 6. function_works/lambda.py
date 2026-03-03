@@ -40,3 +40,7 @@ print(odd_even(3))
 # is_positive = lambda num: True if num > 0 else False
 is_positive = lambda num: num > 0
 print(is_positive(89))
+
+#def map() = from a collection of objects apply a functionality on all values
+# def filter() = apply a specific condition and filter the values
+# def reduce() = process all data and return a single output
