@@ -6,16 +6,16 @@ from csv import DictReader,DictWriter
 fr = open("Tasks\\mar 4\\movie_data\\movie.csv")
 fw = open("Tasks\\mar 4\\movie_data\\top_rated.csv",'w')
 
-Reader = DictReader(fr)
+Reader = DictReader(fr) # Reader has list of dictionaries
 
 Writer = DictWriter(fw,Reader.fieldnames)
 
 Writer.writeheader()
 
-for row in Reader:
+for di in Reader:
 
-    if float(row.get("Rating")) > 8.0:
+    if float(di.get("Rating")) > 8.0:
 
-        Writer.writerow(row)
+        Writer.writerow(di)
 
 
