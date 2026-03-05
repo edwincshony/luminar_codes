@@ -10,7 +10,7 @@ print(prev,end=" ")
 
 print(current,end=" ")
 
-for i in range(1,limit-1):
+for i in range(0,limit-2): # already two numbers printed 0 and 1, so only 8 remain so limit - 2
 
     next  = prev + current
     

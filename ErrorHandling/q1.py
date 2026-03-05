@@ -9,6 +9,10 @@ Paid amount is greater than fee
 Handle invalid input
 Always print "Registration Process Finished" using finally"""
 
+"""| Situation                         | Use                |
+| --------------------------------- | ------------------ |
+| Only one condition should execute | `if / elif / else` |
+| Multiple conditions may execute   | multiple `if`      |"""
 
 try: 
 
@@ -28,7 +32,7 @@ try:
 
     if amount_paid > fee:
 
-        raise Exception("Fee is negative")
+        raise Exception("Paid amount is greater than fee")
 
 except Exception as e:
 

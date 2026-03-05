@@ -94,6 +94,12 @@ print(exponent(2,pow=3)) #ultimate power to argument
 # if op == * return mul of n1, n2
 # if op == / return divison of n1, n2
 
+"""| Situation                         | Use                |
+| --------------------------------- | ------------------ |
+| Only one condition should execute | `if / elif / else` |
+| Multiple conditions may execute   | multiple `if`      |"""
+
+
 def calculator(num1,num2,op="+"):
 
     if op == "+":
