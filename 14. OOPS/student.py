@@ -6,11 +6,11 @@ class Student:
 
     def set_student(self,name,course,roll):
 
-        self.name = name
+        self.name = name # when initialized they are attributes
         self.course = course
         self.roll = roll
 
-        # initialize attributes, instance variables ie, constructor
+        # initialize attributes of an instance ie, constructor
 
     def display(self):
 
