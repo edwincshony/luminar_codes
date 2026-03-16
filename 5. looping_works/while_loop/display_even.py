@@ -1,3 +1,5 @@
+#program prints all even digits of a number, starting from the rightmost digit (last digit) and moving left.
+
 number = int(input("enter number: "))
 
 while(number!=0):

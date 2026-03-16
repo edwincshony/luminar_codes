@@ -1,6 +1,6 @@
 all_foods = {"tea","coffee","dosa","italy","upma","nan","noolputtu","panner"}
 
-akash_fav_foods = {"tea","idly","upma"}
+akash_fav_foods = {"tea","italy","upma"}
 
 akash_unliked = all_foods - akash_fav_foods
 

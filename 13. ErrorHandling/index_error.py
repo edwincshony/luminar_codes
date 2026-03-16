@@ -11,9 +11,11 @@ try:
 
 except Exception as e:
 
-    index = int(input("enter index to print value: "))
+    # index = int(input("enter index to print value: "))
 
-    print(lst[index])
+    # print(lst[index])
+
+    print(e)
 
 finally:
 

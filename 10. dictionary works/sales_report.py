@@ -39,7 +39,7 @@ for key in sales_report:
 
         print(key)
 
-print("--------------")
+print("above display day where sales < avg_sales--------------")
 
 largest = float('-inf')
 

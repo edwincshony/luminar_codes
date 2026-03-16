@@ -25,7 +25,7 @@ my_age = (22)
 
 print(type(my_age)) #<class 'int'>
 
-my_age = (22,)
+my_age = (22,) # A single-element tuple requires a comma, otherwise Python treats it as a normal value in parentheses.
 
 print(type(my_age)) #<class 'tuple'>
 

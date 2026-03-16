@@ -16,11 +16,13 @@ food_logs = ["black tea", "cake", "rice", "pickle", "sambar"]
 
 food_logs[0] = "coffee"
 
-print(food_logs)
+print(f" food logs: {food_logs}")
 
 #display value in 4th index
 
 print(food_logs[0])
+
+print("-----------------")
 
 for i in range(0,5):
 

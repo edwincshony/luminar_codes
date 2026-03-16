@@ -35,7 +35,7 @@ class str:
         pass
 
     def capitalize(self):
-        # Return a capitalized version of the string
+        # converts the first character of the string to uppercase and the rest to lowercase
         pass
 
     def index(self, substr):

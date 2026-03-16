@@ -19,3 +19,7 @@ print(portion3)
 lst_copy = lst[::]
 
 print(lst_copy)
+
+lst_rev = lst[::-1]
+
+print(lst_rev)

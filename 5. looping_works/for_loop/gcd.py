@@ -28,3 +28,8 @@ for i in range(1,smallest+1):
         gcd = i
 
 print(f"GCD of numbers {number1} and {number2} is {gcd}")
+
+# LCM using GCD
+lcm = (number1 * number2) // gcd
+
+print(f"LCM of numbers {number1} and {number2} is {lcm}")

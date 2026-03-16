@@ -1,4 +1,4 @@
-# collection = organizing and stroing group of objects
+# collection = organizing and storing group of objects
 """
 list
 tuple

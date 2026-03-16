@@ -30,3 +30,25 @@ else:
 
     print("Not Prime")
 
+
+"""
+number = int(input("Enter number: "))
+
+if number <= 1:
+
+    print("not prime")
+
+else:
+
+    for i in range(2,int(number**0.5) + 1):
+
+        if number % i == 0:
+
+            print("not prime")
+
+            break
+
+    else:
+
+        print("prime")
+"""

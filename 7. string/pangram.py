@@ -59,18 +59,30 @@ Use break when you are done with the loop but not the function
 
 
 
-word = "The quick brown fox jumps over the lazy dog"
+# word = "The quick brown fox jumps over the lazy dog"
 
-ALPHABETS = "abcdefghijklmnopqrstuvwxyz"
+# ALPHABETS = "abcdefghijklmnopqrstuvwxyz"
 
-is_pangram = True
+# is_pangram = True
 
-for alphabet in ALPHABETS:
+# for alphabet in ALPHABETS:
 
-    if word.find(alphabet) == -1:
+#     if word.find(alphabet) == -1:
 
-        is_pangram = False
+#         is_pangram = False
 
-        break
+#         break
 
-print(is_pangram)
+# print(is_pangram)
+
+def pangram(sentence):
+    alphabets="abcdefghijklmnopqrstuvwxyz"
+    for ch in alphabets:
+        if ch not in sentence:
+            print("not pangram")
+            break
+    else:
+        print("pangram")
+        
+    
+pangram("the quick brown fox jumps over lazy dog")

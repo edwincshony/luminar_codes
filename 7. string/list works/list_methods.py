@@ -6,7 +6,7 @@
 
     def pop(self,index=-1) remove and return specified element at index
     
-    def remove(self,object)  remove first occurence of object
+    def remove(self,object)  remove first occurence of object by value
 
     def count(self,object) frequency of object in the list
 

@@ -13,9 +13,9 @@ st = {10,20,45,89}
 # st=dict() # empty dict
 # st=tuple() # empty tuple
 
-# st.update((100,1))
+st.update([100,1])
 
-# print(st)
+print(st)
 
 # for num in st:
 
@@ -55,7 +55,7 @@ foods = {"dosa","tea","coffee","friedrice"}
 
 foods.add("cb")
 
-print(foods)
+print(f"cb added {foods}")
 
 
 

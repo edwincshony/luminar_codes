@@ -6,9 +6,7 @@ word = input("enter word: ")
 
 result = ""
 
-word_length = len(word)-1
-
-for i in range(word_length,-1,-1):
+for i in range(len(word)-1,-1,-1):
 
     result = result + word[i]
 
@@ -19,6 +17,14 @@ if result == word:
 else:
 
     print("not palindrome")
+
+
+"""
+word = "python"
+
+for i in range(len(word)-1,-1,-1):
+    
+    print(word[i],end="")"""
 
 
 

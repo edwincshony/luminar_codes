@@ -17,75 +17,75 @@ sample input3:
  """
 # first approach
 
-lst = [1,2,3,4,5]
+# lst = [1,2,3,4,5]
 
-for i in range(1,len(lst)+1):
+# for i in range(1,len(lst)+1):
 
-    if i not in lst:
+#     if i not in lst:
 
-        print(i)
+#         print(i)
         
-        break
+#         break
 
-# if for loop hits break then for-else will not work
+# # if for loop hits break then for-else will not work
 
-# if for loop completes without break for-else will work
+# # if for loop completes without break for-else will work
 
-else:
+# else:
 
-    print(len(lst)+1,"is missing")
+#     print(len(lst)+1,"is missing")
 
 
 #second approach
 
-lst = [2,3,4,5]
-lst.sort()
-print(lst)
-for i in range(0,len(lst)-1):
+# lst = [2,3,4,5]
+# lst.sort()
+# print(lst)
+# for i in range(0,len(lst)-1):
 
-    difference = lst[i+1] - lst[i] 
+#     difference = lst[i+1] - lst[i] 
 
-    if difference != 1: #if diff = 1 then no number missing, else: number is missing
+#     if difference != 1: #if diff = 1 then no number missing, else: number is missing
 
-        print(f"{lst[i] + 1} is missing")
+#         print(f"{lst[i] + 1} is missing")
 
     
 #3rd approach most relaible
 
-lst = [1,2, 3, 4, 5]
-s = set(lst)
+# lst = [1,2, 3, 4, 5]
+# s = set(lst)
 
-i = 1
-while True:
-    if i not in s:
-        print(i)
-        break
-    i += 1
+# i = 1
+# while True:
+#     if i not in s:
+#         print(i)
+#         break
+#     i += 1
 
-def missing_least_number(arr):
+# def missing_least_number(arr):
 
-    arr.sort()
+#     arr.sort()
 
-    prev = 0
+#     prev = 0
 
-    next = prev + 1
+#     next = prev + 1
 
-    while(prev<len(arr)-1):
+#     while(prev<len(arr)-1):
 
-        diff = arr[next] - arr[prev]
+#         diff = arr[next] - arr[prev]
 
-        if diff != 1:
+#         if diff != 1:
 
-            print(arr[prev]+1,"is missing")
+#             print(arr[prev]+1,"is missing")
 
-            break
+#             break
 
 
-        prev += 1
+#         prev += 1
 
-        next = prev + 1
+#         next = prev + 1
 
-missing_least_number([1,2,4,5]) 
+# missing_least_number([1,3,4,5]) 
 
 
 def missing_least_number(arr):
@@ -106,5 +106,5 @@ def missing_least_number(arr):
 
         print(arr[-1]+1,"is missing")
 
-missing_least_number([1,2,3,4,5]) 
+missing_least_number([2,3,4,5]) 
 
