@@ -4,6 +4,8 @@ fr = open("Tasks\\mar 12\\spotify-tracks-dataset.csv",encoding="utf-8")
 
 data = list(DictReader(fr))
 
+print(data)
+
 """1. Create a Track Class
 Create a class Track with attributes:
 track_name
