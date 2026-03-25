@@ -29,3 +29,6 @@ values
 ('Stree','hindi',7.5,128,'Amar Kaushik','horror');
 
 select * from movie;
+
+
+

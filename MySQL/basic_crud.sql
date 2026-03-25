@@ -47,4 +47,19 @@ VALUES
 
 select * from student;
 
+select name,place from student;
 
+-- display student details whose place is in thrissur
+
+select * from student where place = "adat";
+
+select * from student where course = "django";
+
+-- display thrissur django students details
+
+select * from student where place = "ksu" and course = "django";
+
+
+select * from student where age > 21;
+
+select * from student where age between 30 and 35;
