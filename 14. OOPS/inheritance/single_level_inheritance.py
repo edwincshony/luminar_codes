@@ -3,7 +3,7 @@ Inheritance lets classes reuse code and behavior.
 
 Single → one parent
 
-Multi-level → parent → child → grandchild
+Multi-level → Grandparent → Parent → child
 
 Multiple → multiple parents
 """

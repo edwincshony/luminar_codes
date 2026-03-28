@@ -21,6 +21,8 @@ for ch in word:
         freq[ch] += 1
     else:
         freq[ch] = 1
-
+print(freq)
+for k,v in freq.items():
+    print(k,v)
 for ch in freq:
     print(f"Frequency of {ch} is: {freq[ch]}")

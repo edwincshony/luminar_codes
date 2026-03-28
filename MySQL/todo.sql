@@ -21,3 +21,11 @@ foreign key (user_id) references user(id) on delete cascade
 );
 
 desc task;
+
+select * from todo_db.task;
+
+insert into user (name,email,phone) values ("vipin","v@gmail.com",9658745896);
+
+insert into task(title,user_id) values ("emi",1);
+insert into task(title,user_id) values ("bill payment",1);
+select * from task;

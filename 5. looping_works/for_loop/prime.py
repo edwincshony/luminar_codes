@@ -32,6 +32,15 @@ else:
 
 
 """
+
+√n guarantees:
+
+If a divisor exists, you will find it before or at √n
+
+If you don’t find one:
+
+No divisor exists at all → number is prime
+
 number = int(input("Enter number: "))
 
 if number <= 1:

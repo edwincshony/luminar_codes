@@ -18,6 +18,8 @@ but greater than second_largest
 numbers = [14, 46, 47, 86, 92, 52, 48, 36, 66, 85]
 
 # Initialize largest and second largest to very small numbers
+"""This guarantees any real number will replace them
+Avoids bugs with negative-only lists"""
 largest = float('-inf')
 second_largest = float('-inf')
 

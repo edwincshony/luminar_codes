@@ -15,7 +15,7 @@ class Bike: # abstract base class
 
 # in abstraction Pulsar should give definition for all methods inherited from Bike abstarct base class otherwise error
 
-class Pulsar:
+class Pulsar(Bike):
 
     def transmission(self): 
 

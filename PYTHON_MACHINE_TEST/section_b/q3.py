@@ -1,18 +1,17 @@
-word1 = "silent"
+"""13. Write a function to check whether two strings are anagrams.
+"""
 
-word2 = "listen"
+w1 = "eat"
+w2 = "tea"
 
-is_anagram = True
+ana = False
 
-for ch in word1:
+for w in w1:
 
-    if word2.find(ch) == -1:
+    if w in w2:
 
-        is_anagram = False
-
-        break
-
-print(is_anagram)
+        ana = True
+print(ana)
 
 # good logic
 
@@ -29,5 +28,3 @@ else:
             break
 
 print(is_anagram)
-
-
