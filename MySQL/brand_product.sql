@@ -28,6 +28,8 @@ select brand.name,product.title,product.price from brand left join product on br
 
 use py_db;
 show tables;
-desc sports;
+desc vehicle;
+use gosell_db;
 
-select * from sports;
+select * from vehicle;
+

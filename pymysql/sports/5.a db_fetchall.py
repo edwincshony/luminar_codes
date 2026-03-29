@@ -19,8 +19,6 @@ records = cursor.fetchall()
 for row in records:
     print(row)
 
-print(records)
-
 cursor.close()
 connection.close()
 
