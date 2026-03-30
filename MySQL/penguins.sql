@@ -160,7 +160,41 @@ select island,avg(body_mass_g) as avg_body_mass_g from penguins group by island 
 
 -- LEVEL 6: SUBQUERIES 
 -- 26. Penguins heavier than average 
-
--- 27. Penguin withmaximum body mass 28. Penguins with flipper length less than average
+select * from penguins where body_mass_g > (select avg(body_mass_g) from penguins);
+-- 27. Penguin withmaximum body mass 
+select * from penguins where body_mass_g =  (select max(body_mass_g) from penguins);
+-- 28. Penguins with flipper length less than average
+select * from penguins where flipper_length_mm < (select avg(flipper_length_mm) from penguins);
 -- 29.Species whose avg body mass > overall avg 
+SELECT species,
+    AVG(body_mass_g) FROM penguins GROUP BY species HAVING
+    AVG(body_mass_g) > (SELECT AVG(body_mass_g) FROM penguins);
 -- 30. Penguins heavier than their species average (correlated)
+SELECT * FROM penguins
+    p1 WHERE body_mass_g > ( SELECT AVG(body_mass_g) FROM penguins p2
+    WHERE p1.species = p2.species );
+
+-- 31. Top 3 heaviest penguins 
+SELECT * FROM penguins
+ORDER BY body_mass_g DESC LIMIT 3;
+
+-- 32. Species with highest avg body mass 
+SELECT species, AVG(body_mass_g)
+    AS avg_mass FROM penguins GROUP BY species ORDER BY avg_mass DESC
+    LIMIT 1;
+
+-- 33. Rank penguins by body mass 
+SELECT *, RANK() OVER (ORDER BY
+    body_mass_g DESC) AS rnk FROM penguins;
+
+-- 34. Difference between max and avg body mass per species 
+SELECT species,
+    MAX(body_mass_g) - AVG(body_mass_g) AS diff FROM penguins GROUP BY
+    species;
+
+-- 35. Percentage contribution of each species count 
+SELECT 
+    species,
+    COUNT(*) * 100.0 / (SELECT COUNT(*) FROM penguins) AS percentage
+FROM penguins
+GROUP BY species;
