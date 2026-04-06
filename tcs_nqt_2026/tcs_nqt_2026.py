@@ -17,7 +17,8 @@ elif purchase_value < 1000:
 
     discount_rate = purchase_value - (5/100 * purchase_value)
 
-print(f"Final payable amount is: {discount_rate:.2f}")
+print(f"{discount_rate:.3f}")
+
 
 #safe
 

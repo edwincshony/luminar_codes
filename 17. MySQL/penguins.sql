@@ -198,3 +198,5 @@ SELECT
     COUNT(*) * 100.0 / (SELECT COUNT(*) FROM penguins) AS percentage
 FROM penguins
 GROUP BY species;
+
+show databases;

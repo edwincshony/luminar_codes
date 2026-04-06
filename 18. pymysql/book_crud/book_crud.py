@@ -92,17 +92,25 @@ class BookListRetriveCreateUpdateDelete:
 
         print("record deleted...")
 
-    def update(self,title=None,id=None):
+    def update(self,id=None,**kwargs):
 
-        query = "update book SET title=%s where id=%s"
+        place_holder = ""
 
-        data = (title,id)
+        for k in kwargs.keys():
+
+            place_holder += k+"="+"%s"+","
+
+        place_holder = place_holder.rstrip(",")
+
+        query = f"UPDATE book SET {place_holder} where id = {id}"
+
+        data = [v for v in kwargs.values()]
 
         self.cursor.execute(query,data)
 
         self.connection.commit()
 
-        print("record updated")
+        print("Record updated")
 
 book_instance = BookListRetriveCreateUpdateDelete()
 
@@ -110,5 +118,8 @@ book_instance = BookListRetriveCreateUpdateDelete()
 
 # book_instance.retrieve(id=1)
 # book_instance.delete(id=1)
-book_instance.update("aadu",3)
+# book_instance.update("aadu",3)
+# book_instance.list()
+# book_instance.update(id=3,title="randamoozham",price=600)
+book_instance.update(id=3,price=750)
 book_instance.list()

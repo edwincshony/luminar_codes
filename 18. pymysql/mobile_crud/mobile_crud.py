@@ -70,17 +70,7 @@ class MobileListRetriveCreateUpdateDelete:
 
         print("record deleted")
 
-    def update(self,title=None,id=None):
-
-        query = "update mobile SET title=%s where id =%s"
-
-        data = (title,id)
-
-        self.cursor.execute(query,data)
-
-        self.connection.commit()
-
-        print("record updated...")
+    
 mobile_instance = MobileListRetriveCreateUpdateDelete()
 mobile_instance.list()
 #mobile_instance.create("Motorola G86 Power","Motorola","8GB ram 16 rom",16000)
