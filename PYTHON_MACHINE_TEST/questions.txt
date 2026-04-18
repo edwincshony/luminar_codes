@@ -75,3 +75,15 @@
 33. Write a program to demonstrate error handling using try-except (handle division by zero and invalid input).
 
 =========================================================
+
+# without nested collection, file operations, error handling,oops 
+
+SECTION C
+
+23. Write a program using lambda, map, and filter to process a list of numbers.
+
+BONUS
+
+27. Write a program to find longest substring without repeating characters.
+29. Write a program to implement a simple calculator using functions.
+25. Write a program to simulate a simple login system (username & password check).

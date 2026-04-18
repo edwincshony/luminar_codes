@@ -5,6 +5,11 @@
     def insert(self,) insert new object at specified index
 
     def pop(self,index=-1) remove and return specified element at index
+
+    nums = [10, 20, 30]
+
+    nums.remove(20)   # removes by VALUE
+    nums.pop(1)       # removes by INDEX
     
     def remove(self,object)  remove first occurence of object by value
 
@@ -16,10 +21,10 @@
 
     def extend(self,iterable) 
     """
-    #      -3     -2     -1
+    #      -4     -3     -2     -1
 colors = ["red","green","blue","green"]
 
-    #       0      1      2
+    #       0      1      2       3
 
 # colors.append("black")
 

@@ -1,3 +1,6 @@
+#23. Write a program using lambda, map, and filter to process a list of numbers.
+
+
 # map(function,iterable) = Apply a function to every item in a list.
 
 arr = [1,2,3,4,5,6]
@@ -24,8 +27,7 @@ print(result)
 
 from functools import reduce
 arr = [10,11,12,13,14,15,16]
-red = lambda n1,n2:n1*n2
 
-result = reduce(red,arr)
+result = reduce(lambda n1,n2:n1*n2,arr)
 
 print(result)

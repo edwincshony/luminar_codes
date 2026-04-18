@@ -13,6 +13,8 @@ my_function("Emil") # "Emil" is an argument
 Use return when you are done with the function
 Use break when you are done with the loop but not the function
 
+return → use print(func()) to see output. print inside function → output shows automatically.
+
 """
 
 

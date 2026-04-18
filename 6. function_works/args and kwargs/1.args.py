@@ -8,7 +8,7 @@ def add(*args): #args=(10,20,30)
 
     return sum(args)
 
-# print(add(10,20))
+print(add(10,20))
 # print(add(10,20,30,40))
 
 def largest_number(*args):

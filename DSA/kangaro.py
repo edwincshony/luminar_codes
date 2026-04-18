@@ -20,7 +20,7 @@ while(p1<len(source) and p2<len(target)):
 
     p1 += 1
 
-print("Kangaroo word status:",p2 == len(target))
+print("Kangaroo word status:",p2 == len(target)) #👉 Means: all characters of target were found
 
 
 

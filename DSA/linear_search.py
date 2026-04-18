@@ -1,3 +1,21 @@
+"""
+def linear_search(arr,target):
+
+    is_present = False
+
+    for num in arr:
+
+        if num == target:
+
+            is_present = True
+
+            break
+
+    return is_present
+
+print(linear_search([1,2,5,6],15))
+"""
+
 class LinearSearch:
 
     def solution(self,arr,element):

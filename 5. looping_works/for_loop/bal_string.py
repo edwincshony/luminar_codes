@@ -6,9 +6,21 @@ word2 = "PQR"
 balance = "DEF"
 """
 
+# efficient approach
 
-word1 = input("enter word1: ")
-word2 = input("enter word2: ")
+word1 = "ABCDEF"
+word2 = "PQR"
+result = ""
+
+min_len = min(len(word1),len(word2))
+
+result += word1[min_len:] + word2[min_len:]
+
+print(result)
+
+# my approach
+word1 = "ABCDEF"
+word2 = "PQR"
 word_length1 = len(word1)
 word_length2 = len(word2)
 

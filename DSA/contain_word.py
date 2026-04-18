@@ -1,28 +1,15 @@
-# approach 1
+source = "edwin"
+target = "win"
 
-source = "traviduxtechnology"
+p1 = 0 # pointer to track source
+p2 = 0 # pointer to track target
 
-target = "vridautx"
+while(p1<len(source) and p2<len(target)):
 
-is_present = True
+    if source[p1] == target[p2]:
 
-for ch in target:
+        p2 += 1
 
-    if ch not in source:
+    p1 +=1
 
-        is_present = False
-        break
-
-print(is_present)
-
-# approach 2 (unique)
-
-source = "traviduxtechnology"
-
-target = "vridautx"
-
-source_set = set(source)
-target_set = set(target)
-
-result = target_set.issubset(source_set)
-print(result)
+print(p2 == len(target))

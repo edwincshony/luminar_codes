@@ -62,16 +62,44 @@ sample input3:
 #         break
 #     i += 1
 
+def missing_least_number(arr):
+
+    arr.sort()
+
+    if arr[0] != 1:
+        print(1, "is missing")
+        return
+
+    prev = 0
+
+    next = prev + 1
+
+    while(prev<len(arr)-1):
+
+        diff = arr[next] - arr[prev]
+
+        if diff != 1:
+
+            print(arr[prev]+1,"is missing")
+
+            return
+
+
+        prev += 1
+
+        next = prev + 1
+
+    print(arr[-1]+1,"is missing")
+
+missing_least_number([1,2,3,4]) 
+
+
 # def missing_least_number(arr):
 
 #     arr.sort()
 
-#     prev = 0
-
-#     next = prev + 1
-
-#     while(prev<len(arr)-1):
-
+#     for prev in range(0,len(arr)-1):
+#         next = prev + 1
 #         diff = arr[next] - arr[prev]
 
 #         if diff != 1:
@@ -80,31 +108,9 @@ sample input3:
 
 #             break
 
+#     else:
 
-#         prev += 1
+#         print(arr[-1]+1,"is missing")
 
-#         next = prev + 1
-
-# missing_least_number([1,3,4,5]) 
-
-
-def missing_least_number(arr):
-
-    arr.sort()
-
-    for prev in range(0,len(arr)-1):
-        next = prev + 1
-        diff = arr[next] - arr[prev]
-
-        if diff != 1:
-
-            print(arr[prev]+1,"is missing")
-
-            break
-
-    else:
-
-        print(arr[-1]+1,"is missing")
-
-missing_least_number([2,3,4,5]) 
+# missing_least_number([2,3,4,5]) 
 
