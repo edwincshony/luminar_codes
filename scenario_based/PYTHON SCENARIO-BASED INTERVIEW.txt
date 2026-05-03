@@ -1,0 +1,69 @@
+PYTHON SCENARIO-BASED INTERVIEW QUESTIONS (MEDIUM & HARD)
+
+-------------------- MEDIUM LEVEL --------------------
+
+1. Log Processing
+You are given a list of logs:
+logs = ["ERROR: Disk full", "INFO: User login", "ERROR: Timeout", "INFO: Logout"]
+Task: Count how many times each log level appears and return a dictionary.
+
+-----------------------------------------------------
+
+2. Missing Number in Sequence
+A list contains numbers from 1 to n, but one number is missing:
+arr = [1, 2, 4, 5, 6]
+Task: Find the missing number efficiently (O(n)).
+
+-----------------------------------------------------
+
+3. Flatten Nested List
+data = [1, [2, [3, 4], 5], 6]
+Task: Convert it into a single flattened list:
+[1, 2, 3, 4, 5, 6]
+
+-----------------------------------------------------
+
+4. First Non-Repeating Character
+s = "aabbccdeff"
+Task: Find the first non-repeating character.
+
+-----------------------------------------------------
+
+5. Group Anagrams
+words = ["eat", "tea", "tan", "ate", "nat", "bat"]
+Task: Group words that are anagrams together.
+
+-----------------------------------------------------
+
+6. Custom Sort Based on Frequency
+nums = [4, 6, 2, 6, 4, 4, 2]
+Task: Sort elements based on frequency (higher frequency first).
+
+-----------------------------------------------------
+
+7. Merge Overlapping Intervals
+intervals = [(1,3), (2,6), (8,10), (9,12)]
+Task: Merge all overlapping intervals.
+
+-----------------------------------------------------
+
+8. Find Duplicate in List (No Extra Space)
+nums = [1, 3, 4, 2, 2]
+Task: Find the duplicate number without using extra memory.
+
+-----------------------------------------------------
+
+-------------------- HARD LEVEL --------------------
+
+9. LRU Cache Implementation
+Design a class LRUCache.
+Task: Implement get() and put() methods with O(1) time complexity.
+
+-----------------------------------------------------
+
+10. Detect Cycle in Linked List
+Task: Given a linked list, detect if it has a cycle.
+If a cycle exists, return the node where the cycle begins.
+
+-----------------------------------------------------
+

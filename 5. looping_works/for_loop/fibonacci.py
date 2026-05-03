@@ -54,5 +54,5 @@ def is_fibonacci_number(number):
 
 
 
-# print(is_fibonacci_number())
+print(is_fibonacci_number(0))
 
