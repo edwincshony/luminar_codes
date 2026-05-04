@@ -16,3 +16,17 @@
 # Output: 1
 # Explanation: 1 and -1 are both the closest numbers to 0, so 1 being larger is returned.
 
+nums = [2,-1,1]
+
+min = float('inf')
+
+for num in nums:
+    diff = abs(num-0)
+    if min > diff:
+        min = diff
+res = []
+for num in nums:
+    if abs(num-0) == min:
+        res.append(num)
+
+print(max(res))

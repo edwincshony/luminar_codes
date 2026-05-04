@@ -33,6 +33,7 @@ result = sorted(freq, key=freq.get, reverse=True)[:k]
 # By setting key=freq.get, you tell Python: "Don't sort the keys alphabetically."
 # " Instead, look up the value (frequency) of each key in the freq dictionary, and sort the keys based on those values."
 # Setting reverse=True changes the sort order to descending (largest to smallest).
+# Setting reverse=False changes the sort order to ascending (smallest to largest).
 # This is a list slicing operation. It takes the first k elements from the sorted list.
 
 print(result)

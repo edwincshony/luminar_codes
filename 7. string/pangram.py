@@ -26,7 +26,7 @@ Use break when you are done with the loop but not the function
 
 
 
-# def is_pangram_using_str_mehtods(word_name):
+# def is_pangram_using_str_methods(word_name):
 
 #     ALPHABETS = "abcdefghijklmnopqrstuvwxyz"
 

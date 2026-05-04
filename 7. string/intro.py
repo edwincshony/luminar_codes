@@ -41,6 +41,12 @@ class str:
     def index(self, substr):
         # Return index of substr; raise ValueError if not found
         pass
+        
+    s = "hello world"
+
+    print(index(s, "world"))   # 6
+    print(index(s, "lo"))      # 3
+    print(index(s, "x"))       # raises ValueError
 
     def find(self, substr):
         # Return first index of substr; return -1 if not found

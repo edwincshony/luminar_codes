@@ -18,6 +18,27 @@ result += word1[min_len:] + word2[min_len:]
 
 print(result)
 
+# merge 
+#word1="ABCD"
+#word2="PQRS"
+# merge_string = APBQCRDS
+
+# efficient version
+
+w1 = "abcdef"
+w2 = "pqrs"
+
+result = ""
+
+min_len = min(len(w1), len(w2))
+
+for i in range(min_len):
+    result += w1[i] + w2[i]
+
+result += w1[min_len:] + w2[min_len:]
+
+print(result)
+
 # my approach
 word1 = "ABCDEF"
 word2 = "PQR"
@@ -34,6 +55,4 @@ elif word_length1 < word_length2:
 else:
     print("Not possible to take balance")
 
-#word1="ABCD"
-#word2="PQRS"
-# merge_string = APBQCRDS
+

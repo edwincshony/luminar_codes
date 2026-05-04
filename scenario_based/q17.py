@@ -32,7 +32,7 @@ def longestCommonPrefix(strs):
     if not strs:
         return ""
 
-    strs.sort()
+    strs.sort() #['flight', 'flow', 'flower']
     s = ""
     i = 0
 
