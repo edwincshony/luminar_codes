@@ -43,6 +43,19 @@ if found == False:
     print("no pair")
 
 
+"Two pair sum return indices "
+# arr = [2,3,4]
+# target = 6
+
+# seen = {}
+# for i, num in enumerate(arr):
+#     complement = target - num
+#     if complement in seen:
+#         print(seen[complement], i)
+#     seen[num] = i
+
+
+
 """two pair sum"""
 
 """arr = [2,3,4,5]
