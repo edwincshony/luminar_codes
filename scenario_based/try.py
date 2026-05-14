@@ -1,16 +1,12 @@
-def longestCommonPrefix(strs):
+nums = [4, 6, 2, 6, 4, 4, 2]
 
-    s=""
-    i=0
-    while i < len(strs[0]):
+# Step 1: Count frequency manually
+freq = {}
+for num in nums:
+    if num in freq:
+        freq[num] += 1
+    else:
+        freq[num] = 1
 
-        if strs[0][i] == strs[-1][i]:
-
-            s += strs[0][i]
-        
-        else:
-            break
-        i += 1
-
-    return s
-print(longestCommonPrefix(strs = ["flower","flow","flight"]))
+result = sorted(nums,key=lambda x:(-freq[x],x))
+print(result)

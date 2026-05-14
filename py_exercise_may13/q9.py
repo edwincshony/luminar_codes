@@ -1,0 +1,9 @@
+# 9. Common divisors of a number
+
+number = 12
+
+for i in range(1,number+1):
+
+    if number % i == 0:
+
+        print(i,end=" ")

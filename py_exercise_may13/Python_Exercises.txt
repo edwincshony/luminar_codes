@@ -1,0 +1,27 @@
+# Python Programming Exercises
+
+## Section 1: Problems using 'for' loops
+1. Display numbers from 10 to 50
+2. Display even numbers from 50 to 100
+3. Display sum of numbers from 10 to 50
+4. Display sum of even numbers from 50 to 100
+5. Display product of numbers from 10 to 20
+6. W.A.P (Write A Program) to display product of even numbers from 10 to 25
+7. W.A.P to display product of even numbers and sum of odd numbers from 10 to 20
+8. Factorial of a number
+9. Common divisors of a number
+10. Common divisors of two numbers
+11. Common divisors of three numbers
+12. GCD (Greatest Common Divisor) of two numbers
+13. GCD of three numbers
+14. Prime number
+
+## Section 2: Problems using 'while' loops
+15. Display digits in a number in reverse order
+16. Sum of digits of a number
+17. Sum of squares of digits
+18. Display number of digits in a number
+19. Armstrong number
+20. Largest digit in a number
+21. Smallest digit in a number
+22. Largest and smallest digit in a number

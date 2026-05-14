@@ -4,7 +4,6 @@ Task: Group words that are anagrams together.
 """
 
 words = ["eat", "tea", "tan", "ate", "nat", "bat"]
-
 anagram_groups = {}
 
 for word in words:
