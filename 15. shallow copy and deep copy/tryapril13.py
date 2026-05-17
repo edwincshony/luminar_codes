@@ -1,24 +1,16 @@
-arr = [1,2,3,4,5,6]
+source = "edwin"
+target = "win"
 
-square = lambda num:num**2
+p1=0
+p2=0
 
-res = list(map(square,arr))
+while p1<len(source) and p2<len(target):
 
-print(res)
+    if source[p1] == target[p2]:
 
-arr = [1,2,3,4,5,6]
+        p2+=1
 
+    p1+=1
 
-filtter = lambda num:num>2
+print("kangaroo status",p2==len(target))
 
-res = list(filter(filtter,arr))
-print(res)
-
-from functools import reduce
-
-arr = [1,2,3,4,5,6]
-
-
-resukt = reduce(lambda n1,n2:n1*n2,arr)
-
-print(resukt)

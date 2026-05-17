@@ -1,5 +1,7 @@
 # lst = [10,11,12,11,13,15,14,13]
 
+# 10 11 11 12 13 13 14 15
+
 # # find duplicate numbers without using any predifned methods
 
 # lst.sort()
@@ -19,7 +21,7 @@ def duplicate(arr):
 
     arr.sort()
 
-    duplicate = []
+    # duplicate = []
 
     for prev in range(0,len(arr)-1):
 
@@ -29,9 +31,11 @@ def duplicate(arr):
 
         if difference == 0:
 
-            duplicate.append(arr[prev])
+            print(arr[prev])
 
-    print(duplicate)
+            # duplicate.append(arr[prev])
+
+    # print(duplicate)
 
 duplicate([10,11,12,11,13,15,14,13])
 

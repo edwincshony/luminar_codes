@@ -1,0 +1,25 @@
+Previous Scenario- based/DSA exam questions :-
+
+1) RansomNote
+
+2) Roman to Integer
+
+3) Merge Overlapping intervals
+
+4) Summary ranges
+
+5) Two pair sum- index wise
+
+6) Common Prefix 
+
+7) Merge two strings alternatively
+
+8) Disarium number
+
+9) Least distance from 0 (abs)
+
+10)Count special character/num/alphabet
+
+11) Sentence palindrome
+
+12) Least positive missing number

@@ -1,0 +1,16 @@
+City,StudyHours,Attendance,Assignments,Result
+Delhi,2.0,30.0,1.0,Fail
+Mumbai,3.0,45.0,2.0,Fail
+Chennai,5.0,60.0,3.0,Pass
+Delhi,,50.0,2.0,Fail
+,6.0,,4.0,Pass
+Mumbai,7.0,75.0,,Pass
+Chennai,8.0,85.0,5.0,Pass
+Delhi,1.0,25.0,1.0,Fail
+Mumbai,4.0,55.0,3.0,Fail
+Chennai,6.0,65.0,4.0,Pass
+Delhi,7.0,80.0,5.0,Pass
+Mumbai,,70.0,4.0,Pass
+,5.0,58.0,3.0,Pass
+Chennai,9.0,,5.0,Pass
+Delhi,2.0,35.0,,Fail

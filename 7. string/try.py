@@ -443,21 +443,28 @@ w.a.p to display first vowel character in a word
 string palindrome
 """
 
-# word = "amma"
-# res=""
+word = "amma"
+res=""
 
-# word_len = len(word)-1
+word_len = len(word)-1
 
-# for i in range(word_len,-1,-1):
+for i in range(word_len,-1,-1):
     
-#     res = res + word[i]
-# print(res)
-# if res == word:
+    res = res + word[i]
+print(res)
+if res == word:
     
-#     print("pal")
-# else:
-#     print("poda")
+    print("pal")
+else:
+    print("poda")
 
+if word == word[::-1]:
+
+    print("palindrome")
+
+else:
+
+    print("not palindrome")
 #0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
 # limit = 10

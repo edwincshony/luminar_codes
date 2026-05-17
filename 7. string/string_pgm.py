@@ -13,7 +13,7 @@ for ch in text:
         iis_digit = True
 
 
-if iis_digit == False:
+if not iis_digit:
 
     print("No digits found")
 

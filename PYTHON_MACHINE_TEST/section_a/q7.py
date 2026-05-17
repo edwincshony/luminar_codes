@@ -1,6 +1,20 @@
 """7. Write a program to remove duplicates from a list.
 """
 
+
+# Cleaner version:
+lst = [10,11,12,11,14,15,14,15,18,15]
+
+new = []
+seen = set()
+
+for num in lst:
+    if num not in seen:
+        new.append(num)
+        seen.add(num)
+
+print(new)
+
 lst = [10,11,12,11,14,15,14,15,18,15]
 
 lst.sort()
@@ -32,15 +46,4 @@ lst = [10,11,12,11,14,15,14,15,18,15]
 new = list(set(lst))
 print(new)
 
-# Cleaner version:
-lst = [10,11,12,11,14,15,14,15,18,15]
 
-new = []
-seen = set()
-
-for num in lst:
-    if num not in seen:
-        new.append(num)
-        seen.add(num)
-
-print(new)

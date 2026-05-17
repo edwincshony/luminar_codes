@@ -18,47 +18,32 @@ tot = 0
 # day with lowest sale
 
 print(sales_report)
-
+tot=0
+avg=0
 for val in sales_report.values():
-
     tot += val
-
-print(tot/len(sales_report))
-
-print("----------")
+print(tot)
+avg = tot/len(sales_report)
+print(avg)
 
 for key,val in sales_report.items():
-
-    if val < (tot/len(sales_report)):
-
+    if val<avg:
         print(key)
 
-print("----------")
 
-high = float('-inf')
 
+highest = float('-inf')
+highest_day = ""
 for key,val in sales_report.items():
+    if val>highest:
+        highest = val
+        highest_day = key
+print(highest_day,highest)
 
-
-    if val > high:
-
-        high = val
-        high_key = key
-
-print(high_key,high)
-
-print("----------")
-
-low = float('inf')
-
+highest = float('inf')
+highest_day = ""
 for key,val in sales_report.items():
-
-
-    if val < low:
-
-        low = val
-        low_key = key
-
-print(low_key,low)
-
-print("----------")
+    if val<highest:
+        highest = val
+        highest_day = key
+print(highest_day,highest)
