@@ -29,3 +29,7 @@ for num in nums:
         closest = num
 
 print(closest)  # Output: 1
+
+
+
+

@@ -12,6 +12,24 @@
 #pqrsef
 #apbqcrdsef
 
+# efficient version
+
+w1 = "abcdef"
+w2 = "pqrs"
+
+result = ""
+
+min_len = min(len(w1), len(w2))
+
+for i in range(min_len):
+    result += w1[i] + w2[i]
+
+result += w1[min_len:] + w2[min_len:]
+
+print(result)
+
+# inefficient
+
 w1 = "abcd"
 
 w2 = "pqrsef"
@@ -43,18 +61,3 @@ elif len(w1) < len(w2):
 
     print(result + w2[len(w1):])
 
-# efficient version
-
-w1 = "abcdef"
-w2 = "pqrs"
-
-result = ""
-
-min_len = min(len(w1), len(w2))
-
-for i in range(min_len):
-    result += w1[i] + w2[i]
-
-result += w1[min_len:] + w2[min_len:]
-
-print(result)

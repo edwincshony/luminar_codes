@@ -2,17 +2,23 @@
 intervals = [(1,3), (2,6), (8,10), (9,12)]
 Task: Merge all overlapping intervals.
 """
-intervals = [(1,3), (2,6), (8,10), (9,12)]
+intervals = [[1,3],[2,6],[8,10],[15,18]]
 
-intervals.sort(key=lambda x : x[0])
+intervals.sort()
 
-res = [intervals[0]]
-for start,end in intervals[1:]:
-    last_start,last_end = res[-1]
-    if start <= last_end:
-        res[-1] = (last_start, max(last_end, end))
+merged = [intervals[0]]
+
+for current in intervals[1:]:
+
+    prev = merged[-1]
+
+    if current[0] <= prev[1]:
+
+        prev[1] = max(prev[1],current[1])
+
     else:
-        res.append((start,end))
 
-print(res)
+        merged.append(current)
+
+print(merged)
 

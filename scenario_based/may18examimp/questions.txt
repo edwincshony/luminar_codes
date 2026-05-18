@@ -23,3 +23,5 @@ Previous Scenario- based/DSA exam questions :-
 11) Sentence palindrome
 
 12) Least positive missing number
+
+13) valid parentheses
