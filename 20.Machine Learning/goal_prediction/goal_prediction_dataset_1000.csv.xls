@@ -1,0 +1,1001 @@
+current_weight,target_weight,duration,activity_level,avg_calories,label
+95,90,8,light,3302,Difficult
+60,52,11,sedentary,3279,Difficult
+111,77,10,moderate,2915,Difficult
+89,75,6,light,3181,Difficult
+69,62,3,very_active,2513,Likely
+98,70,10,sedentary,3071,Difficult
+110,88,2,sedentary,3292,Very Difficult
+76,66,10,light,2881,Difficult
+103,100,7,light,1811,Likely
+55,51,10,active,2318,Likely
+86,56,2,sedentary,3501,Very Difficult
+83,77,11,sedentary,2072,Likely
+104,86,7,light,3005,Difficult
+56,47,11,very_active,3371,Likely
+105,79,4,light,1951,Difficult
+73,54,3,active,2720,Very Difficult
+86,77,7,moderate,2713,Likely
+69,54,4,moderate,3099,Difficult
+96,64,5,active,2580,Difficult
+95,81,2,moderate,3018,Very Difficult
+78,67,6,very_active,3725,Difficult
+82,67,12,light,2833,Difficult
+88,53,3,very_active,2370,Difficult
+120,107,7,light,2889,Difficult
+98,70,5,sedentary,2777,Very Difficult
+55,52,10,sedentary,3177,Difficult
+80,68,11,active,2950,Likely
+87,66,9,light,2803,Difficult
+61,55,7,sedentary,2671,Likely
+104,93,4,sedentary,3376,Very Difficult
+76,58,12,sedentary,2438,Likely
+88,84,6,sedentary,3022,Difficult
+108,78,10,light,3067,Difficult
+64,50,12,light,2591,Likely
+129,123,12,moderate,3030,Likely
+75,66,2,very_active,3748,Difficult
+97,65,3,moderate,2187,Difficult
+67,49,8,light,2113,Difficult
+71,61,7,light,1775,Likely
+78,75,9,moderate,2084,Likely
+90,70,5,sedentary,2194,Difficult
+69,49,6,sedentary,3577,Very Difficult
+89,60,11,light,3316,Very Difficult
+74,46,4,very_active,2204,Difficult
+118,114,9,light,3227,Difficult
+65,50,8,sedentary,2133,Difficult
+116,103,5,active,3149,Difficult
+105,82,4,sedentary,3329,Very Difficult
+84,67,5,light,2916,Very Difficult
+63,46,7,active,3006,Difficult
+67,49,11,light,2885,Difficult
+100,68,8,moderate,3175,Difficult
+125,101,9,sedentary,1955,Likely
+74,70,12,active,3467,Difficult
+120,92,8,light,2556,Difficult
+74,56,9,sedentary,2676,Difficult
+123,99,5,sedentary,1992,Difficult
+97,74,5,sedentary,2739,Very Difficult
+107,78,10,very_active,3292,Difficult
+91,73,9,sedentary,2356,Difficult
+115,110,10,active,2813,Likely
+89,86,12,light,2986,Difficult
+56,51,9,active,2192,Likely
+122,110,12,very_active,3608,Likely
+126,109,12,sedentary,3154,Difficult
+121,98,5,moderate,2616,Difficult
+86,76,4,sedentary,3254,Very Difficult
+61,45,2,light,3218,Very Difficult
+106,74,3,sedentary,2303,Very Difficult
+80,56,8,sedentary,3438,Very Difficult
+130,127,7,moderate,2579,Likely
+59,51,5,sedentary,2333,Difficult
+64,59,9,sedentary,2256,Likely
+94,69,11,moderate,3114,Difficult
+67,52,10,sedentary,2157,Likely
+121,108,5,active,2100,Likely
+100,72,3,active,3150,Very Difficult
+56,49,10,light,2266,Likely
+91,63,10,light,2465,Difficult
+105,88,7,very_active,3661,Difficult
+118,97,6,light,2018,Difficult
+86,81,11,moderate,2393,Likely
+95,67,11,sedentary,2491,Difficult
+86,57,8,very_active,2444,Likely
+98,73,3,light,1729,Difficult
+130,116,2,light,1818,Difficult
+72,50,8,sedentary,2283,Difficult
+104,90,11,sedentary,3009,Difficult
+125,121,3,very_active,2824,Likely
+70,64,4,moderate,3130,Likely
+108,99,3,light,1810,Likely
+75,69,8,active,3358,Difficult
+117,93,10,sedentary,2662,Difficult
+61,47,9,moderate,2832,Difficult
+72,47,2,moderate,2620,Difficult
+114,81,4,sedentary,2449,Very Difficult
+109,83,6,sedentary,2909,Very Difficult
+87,57,5,sedentary,2496,Very Difficult
+57,53,12,sedentary,2959,Difficult
+112,92,12,moderate,2751,Difficult
+56,47,10,sedentary,2802,Difficult
+66,56,10,moderate,2739,Likely
+124,101,10,light,2532,Difficult
+88,74,3,moderate,3181,Difficult
+69,51,10,moderate,2668,Likely
+118,102,10,moderate,2336,Likely
+115,98,12,light,2701,Difficult
+103,74,4,moderate,2478,Difficult
+77,47,4,sedentary,2781,Very Difficult
+69,66,3,very_active,3723,Likely
+61,54,12,moderate,1926,Likely
+67,46,12,light,1958,Likely
+87,81,3,sedentary,2212,Difficult
+74,54,3,light,1824,Difficult
+99,92,10,very_active,3810,Likely
+106,103,3,active,2606,Likely
+83,73,10,very_active,3369,Likely
+111,83,9,sedentary,2604,Difficult
+57,50,5,active,2429,Likely
+85,75,7,light,2436,Likely
+74,55,5,moderate,2311,Difficult
+103,73,3,light,2561,Very Difficult
+106,85,11,moderate,2745,Difficult
+82,74,3,sedentary,2831,Difficult
+92,57,6,moderate,2756,Very Difficult
+87,82,12,sedentary,2870,Difficult
+71,62,11,light,2620,Likely
+60,48,5,moderate,1831,Likely
+83,65,2,very_active,3242,Very Difficult
+114,93,10,light,2899,Difficult
+107,75,8,very_active,2256,Likely
+99,69,4,light,2655,Very Difficult
+129,124,8,moderate,2792,Likely
+107,80,12,moderate,2536,Likely
+118,93,8,light,2979,Very Difficult
+61,53,9,active,3041,Likely
+57,45,5,moderate,2623,Likely
+73,47,10,sedentary,2615,Difficult
+95,66,2,very_active,2925,Difficult
+99,69,4,very_active,2781,Difficult
+102,93,2,active,3260,Very Difficult
+55,49,10,light,2328,Likely
+85,77,6,very_active,3634,Likely
+77,60,2,active,2147,Difficult
+56,45,12,active,3056,Likely
+95,74,6,active,2117,Difficult
+87,74,3,light,2256,Difficult
+77,64,4,moderate,3183,Difficult
+92,82,4,moderate,3177,Difficult
+119,86,8,sedentary,2316,Difficult
+88,77,5,sedentary,3137,Difficult
+73,46,8,moderate,1812,Likely
+103,99,3,light,2963,Difficult
+60,55,8,light,2591,Likely
+109,100,3,sedentary,2254,Difficult
+126,97,2,sedentary,3160,Very Difficult
+129,125,3,active,2739,Likely
+112,82,3,active,2141,Difficult
+81,71,9,light,2887,Difficult
+127,107,8,very_active,3537,Difficult
+130,98,3,light,2846,Very Difficult
+104,75,11,sedentary,2306,Difficult
+104,72,9,sedentary,2876,Very Difficult
+114,111,3,light,1973,Likely
+59,52,8,active,3473,Difficult
+91,82,5,sedentary,2851,Difficult
+126,114,3,active,2701,Difficult
+79,70,8,moderate,2266,Likely
+94,72,4,moderate,2127,Difficult
+90,57,6,active,2804,Very Difficult
+77,52,11,sedentary,2909,Difficult
+63,47,7,moderate,2459,Likely
+63,57,4,sedentary,2279,Likely
+96,93,7,moderate,2365,Likely
+85,71,9,moderate,2346,Likely
+117,113,5,sedentary,2430,Likely
+120,109,9,active,2975,Likely
+79,66,11,light,3380,Difficult
+57,46,5,moderate,2620,Likely
+127,95,9,very_active,3264,Difficult
+69,60,5,sedentary,2270,Difficult
+106,88,10,moderate,2013,Likely
+103,94,12,light,2874,Difficult
+93,74,11,active,2337,Likely
+101,72,12,moderate,2105,Likely
+86,68,11,sedentary,2885,Difficult
+84,55,10,moderate,3082,Difficult
+130,107,10,moderate,2124,Likely
+97,94,7,light,3006,Difficult
+78,75,4,sedentary,2210,Likely
+85,69,8,sedentary,3330,Very Difficult
+128,97,7,moderate,2548,Difficult
+124,117,6,moderate,2982,Likely
+94,82,5,sedentary,2687,Difficult
+114,86,2,sedentary,2413,Very Difficult
+69,66,8,light,2461,Likely
+112,83,2,active,2581,Difficult
+118,90,9,light,2851,Very Difficult
+105,77,8,sedentary,2272,Difficult
+91,71,6,sedentary,2983,Very Difficult
+64,47,4,very_active,2548,Likely
+123,120,7,active,2185,Likely
+79,59,11,sedentary,2050,Difficult
+76,59,2,light,2642,Very Difficult
+115,101,7,moderate,2247,Likely
+106,74,12,very_active,2978,Likely
+69,65,9,sedentary,2999,Difficult
+100,91,5,moderate,3169,Difficult
+130,101,6,light,3081,Very Difficult
+117,102,6,light,3129,Difficult
+101,66,5,light,2971,Very Difficult
+77,74,9,sedentary,2098,Likely
+55,52,9,sedentary,3396,Difficult
+70,66,7,sedentary,3180,Difficult
+57,48,10,moderate,2559,Likely
+76,66,10,moderate,2576,Likely
+64,59,8,sedentary,3089,Difficult
+120,94,7,light,2970,Very Difficult
+102,77,3,moderate,2338,Difficult
+98,70,11,sedentary,2548,Difficult
+84,52,8,active,3200,Difficult
+124,108,10,very_active,3594,Difficult
+84,60,11,sedentary,2018,Difficult
+75,66,5,moderate,3144,Difficult
+102,77,7,light,1978,Difficult
+99,94,4,moderate,1849,Likely
+108,98,8,moderate,2554,Likely
+122,112,8,active,2849,Likely
+79,64,10,light,1932,Likely
+107,84,9,very_active,3207,Difficult
+122,87,12,active,2335,Likely
+115,109,12,sedentary,3406,Difficult
+57,49,3,active,3091,Difficult
+59,48,3,light,3057,Very Difficult
+92,75,4,light,2043,Difficult
+125,100,11,moderate,2434,Likely
+125,99,9,light,2222,Difficult
+83,70,8,sedentary,2181,Difficult
+121,114,2,moderate,2302,Difficult
+92,78,4,light,2392,Difficult
+100,70,3,light,2183,Very Difficult
+83,65,9,light,2291,Difficult
+60,45,7,sedentary,2779,Difficult
+83,75,6,active,2100,Likely
+113,100,8,moderate,2408,Likely
+58,54,8,sedentary,3305,Difficult
+106,91,2,light,3317,Very Difficult
+97,65,7,sedentary,3306,Very Difficult
+116,104,11,light,2234,Likely
+75,50,8,moderate,2096,Difficult
+122,93,7,moderate,2069,Difficult
+115,82,4,sedentary,3564,Very Difficult
+88,82,4,sedentary,1924,Likely
+81,56,2,active,2205,Difficult
+58,54,8,light,2701,Difficult
+89,73,11,sedentary,3178,Difficult
+72,60,9,light,3275,Difficult
+55,49,12,moderate,2914,Likely
+81,55,4,sedentary,2972,Very Difficult
+116,99,11,moderate,2793,Difficult
+128,101,5,sedentary,3092,Very Difficult
+71,59,11,very_active,3200,Likely
+55,49,3,sedentary,1917,Likely
+110,80,9,moderate,2773,Difficult
+109,89,10,light,2898,Difficult
+128,121,9,light,2845,Difficult
+114,84,8,moderate,2600,Difficult
+71,53,6,moderate,1836,Likely
+69,50,2,moderate,2949,Very Difficult
+116,88,10,active,2639,Likely
+76,48,8,moderate,2271,Difficult
+113,88,5,sedentary,2571,Difficult
+96,90,10,sedentary,2991,Difficult
+85,59,12,moderate,2417,Likely
+59,53,10,sedentary,2831,Difficult
+96,81,7,sedentary,3523,Very Difficult
+81,58,7,sedentary,3325,Very Difficult
+76,48,2,sedentary,2985,Very Difficult
+115,81,2,sedentary,2950,Very Difficult
+80,48,6,light,1919,Difficult
+124,103,10,very_active,2600,Likely
+111,105,7,very_active,2207,Likely
+128,111,3,sedentary,3121,Very Difficult
+68,65,12,moderate,2641,Likely
+100,78,6,sedentary,3578,Very Difficult
+119,106,9,light,3094,Difficult
+56,51,4,very_active,2470,Likely
+79,67,3,active,2399,Difficult
+74,49,4,sedentary,3500,Very Difficult
+84,79,12,moderate,2622,Likely
+112,92,11,sedentary,2500,Difficult
+72,50,2,active,2980,Very Difficult
+86,68,2,light,2860,Very Difficult
+129,122,3,light,3089,Difficult
+60,47,4,very_active,2832,Difficult
+80,71,9,very_active,3292,Likely
+63,60,8,active,3378,Difficult
+82,75,3,sedentary,2814,Difficult
+78,48,2,active,2832,Very Difficult
+76,60,10,light,3298,Very Difficult
+79,61,6,light,2638,Difficult
+108,98,8,moderate,3146,Likely
+101,86,9,sedentary,2566,Difficult
+91,71,9,sedentary,2050,Difficult
+111,98,6,very_active,3489,Difficult
+77,50,6,light,2281,Difficult
+88,85,11,light,1948,Likely
+73,56,11,light,3308,Very Difficult
+59,56,3,light,2670,Likely
+60,48,9,sedentary,2235,Likely
+126,105,10,light,3065,Difficult
+93,71,2,moderate,3130,Very Difficult
+65,46,9,sedentary,2786,Difficult
+101,91,10,active,2764,Likely
+88,81,12,sedentary,2272,Likely
+81,50,3,active,3133,Very Difficult
+123,117,4,active,3460,Difficult
+82,74,5,sedentary,2220,Difficult
+82,77,10,light,3071,Difficult
+127,120,10,very_active,3445,Likely
+61,56,5,active,2820,Likely
+72,49,12,light,1942,Likely
+67,56,4,light,2654,Difficult
+90,69,7,very_active,2661,Likely
+70,66,9,moderate,2909,Likely
+128,94,11,light,2637,Difficult
+111,103,4,active,3035,Difficult
+78,65,4,active,2845,Difficult
+72,61,2,moderate,3000,Very Difficult
+120,104,3,light,2922,Very Difficult
+61,55,4,active,3047,Likely
+74,64,9,moderate,3156,Likely
+65,46,11,very_active,3570,Difficult
+70,65,6,very_active,2584,Likely
+84,66,11,light,2612,Difficult
+109,82,3,active,2014,Difficult
+62,45,10,active,2329,Likely
+107,98,10,moderate,3125,Likely
+77,53,11,moderate,1912,Likely
+77,46,11,sedentary,3474,Very Difficult
+115,92,8,sedentary,2919,Difficult
+97,70,12,active,2888,Difficult
+71,63,12,sedentary,2164,Likely
+114,88,9,moderate,2779,Difficult
+71,50,8,active,2097,Likely
+86,51,4,active,3463,Very Difficult
+124,114,8,sedentary,3595,Difficult
+119,85,3,active,2022,Difficult
+66,45,4,active,2415,Difficult
+67,60,5,active,2824,Likely
+130,120,9,moderate,1900,Likely
+86,51,6,active,3085,Very Difficult
+88,73,2,active,2484,Difficult
+116,98,3,very_active,2230,Difficult
+59,52,2,active,3207,Very Difficult
+62,49,11,light,3241,Difficult
+71,64,8,light,2664,Likely
+125,100,9,sedentary,2332,Difficult
+106,77,2,light,2638,Very Difficult
+91,81,7,moderate,1955,Likely
+122,103,2,moderate,1802,Difficult
+97,75,6,moderate,2779,Difficult
+123,101,2,light,2759,Very Difficult
+101,78,3,moderate,2238,Difficult
+61,58,9,moderate,2930,Likely
+74,57,8,light,3338,Very Difficult
+127,103,9,moderate,2219,Likely
+87,64,2,sedentary,2841,Very Difficult
+98,63,9,light,2776,Very Difficult
+101,97,6,light,2202,Likely
+87,61,6,sedentary,3495,Very Difficult
+103,86,2,moderate,2580,Difficult
+85,77,10,active,3416,Difficult
+80,61,11,light,3213,Very Difficult
+83,49,2,active,2309,Difficult
+90,78,2,sedentary,3080,Very Difficult
+111,98,7,light,2931,Difficult
+113,80,9,sedentary,2399,Difficult
+66,52,9,light,2346,Difficult
+63,47,10,light,3279,Very Difficult
+103,94,5,sedentary,2603,Difficult
+98,77,11,very_active,3319,Difficult
+73,59,7,moderate,2336,Likely
+69,59,5,moderate,3148,Difficult
+93,68,6,sedentary,2066,Difficult
+93,72,5,moderate,2892,Difficult
+102,71,10,moderate,1934,Likely
+61,58,3,moderate,2219,Likely
+118,107,4,active,2953,Difficult
+69,57,12,active,3245,Difficult
+85,75,11,moderate,3177,Likely
+130,102,7,sedentary,2956,Very Difficult
+64,47,11,sedentary,1956,Likely
+94,89,11,sedentary,3231,Difficult
+106,76,7,active,2495,Difficult
+114,102,5,very_active,2832,Likely
+107,74,4,moderate,2384,Difficult
+113,86,10,light,1796,Likely
+75,53,2,sedentary,2093,Very Difficult
+64,56,6,very_active,3559,Likely
+121,116,8,moderate,2460,Likely
+92,75,6,moderate,2100,Likely
+70,58,5,very_active,3365,Difficult
+59,53,6,very_active,3469,Likely
+88,85,3,very_active,2598,Likely
+81,74,5,sedentary,2819,Difficult
+85,73,4,sedentary,2043,Difficult
+122,93,3,sedentary,2304,Very Difficult
+112,89,2,very_active,3496,Very Difficult
+99,79,4,moderate,2760,Difficult
+90,76,10,sedentary,3088,Difficult
+69,66,10,moderate,2848,Likely
+75,72,7,light,2349,Likely
+82,71,8,light,3298,Difficult
+116,81,9,moderate,2039,Difficult
+128,113,6,light,2549,Difficult
+62,54,5,moderate,3127,Difficult
+88,69,10,very_active,2542,Likely
+130,121,12,sedentary,3161,Difficult
+92,73,8,moderate,2807,Difficult
+127,121,12,sedentary,3386,Difficult
+130,117,6,sedentary,2093,Difficult
+99,83,3,sedentary,2090,Very Difficult
+64,46,11,light,2181,Difficult
+80,69,10,light,2878,Difficult
+72,45,11,sedentary,1950,Likely
+90,76,10,moderate,2612,Likely
+57,51,4,sedentary,3494,Difficult
+72,47,11,light,2533,Difficult
+68,50,6,moderate,2395,Likely
+122,101,10,light,2124,Difficult
+116,90,5,moderate,2830,Very Difficult
+102,91,10,sedentary,2002,Likely
+83,74,4,very_active,3771,Difficult
+90,84,11,light,2928,Difficult
+124,108,5,sedentary,2566,Difficult
+88,73,5,moderate,2647,Likely
+67,45,4,moderate,2984,Very Difficult
+97,71,12,active,2325,Likely
+87,64,3,moderate,1939,Difficult
+80,70,6,sedentary,2163,Difficult
+103,89,3,active,2154,Difficult
+82,53,10,moderate,2828,Difficult
+115,82,12,moderate,1983,Likely
+97,79,8,moderate,2821,Difficult
+84,74,11,sedentary,2753,Difficult
+124,108,11,sedentary,3474,Difficult
+114,104,3,moderate,2859,Difficult
+109,83,10,sedentary,2555,Difficult
+83,57,4,active,3220,Very Difficult
+92,60,4,light,2528,Very Difficult
+120,93,3,very_active,3769,Very Difficult
+96,93,10,moderate,2465,Likely
+83,74,10,moderate,2010,Likely
+111,84,3,sedentary,3273,Very Difficult
+112,95,9,very_active,2755,Likely
+126,112,2,active,3000,Very Difficult
+99,93,6,moderate,2603,Likely
+84,78,8,sedentary,3276,Difficult
+115,95,4,active,3192,Difficult
+109,103,2,sedentary,2445,Difficult
+125,103,10,sedentary,2154,Difficult
+61,54,6,moderate,2347,Likely
+59,50,10,sedentary,2531,Likely
+99,95,7,sedentary,2016,Likely
+55,49,2,light,2080,Difficult
+123,115,9,active,2091,Likely
+102,77,12,sedentary,2485,Difficult
+87,57,4,light,2576,Very Difficult
+86,56,12,moderate,2539,Likely
+81,49,4,sedentary,3278,Very Difficult
+87,64,6,sedentary,1806,Difficult
+104,82,10,sedentary,3589,Very Difficult
+86,83,5,sedentary,3258,Difficult
+79,45,8,moderate,2844,Difficult
+66,47,7,moderate,2575,Likely
+90,78,6,sedentary,3396,Very Difficult
+86,80,4,sedentary,2077,Likely
+77,55,12,light,2547,Difficult
+95,87,11,light,2142,Likely
+58,50,6,moderate,1941,Likely
+124,118,10,sedentary,3466,Difficult
+73,52,7,moderate,3108,Difficult
+104,74,8,moderate,2122,Difficult
+70,48,3,active,3474,Very Difficult
+80,47,3,light,1855,Difficult
+95,70,11,active,2620,Likely
+83,70,3,sedentary,1936,Difficult
+58,52,7,light,3311,Difficult
+105,98,10,sedentary,2551,Likely
+109,78,4,moderate,1889,Difficult
+62,59,5,very_active,3885,Likely
+96,67,9,light,1940,Difficult
+66,45,4,light,3219,Very Difficult
+93,73,3,active,2322,Difficult
+78,51,8,moderate,2808,Difficult
+90,80,6,sedentary,3463,Very Difficult
+107,90,2,sedentary,3587,Very Difficult
+86,75,5,sedentary,2870,Difficult
+106,79,7,moderate,2255,Difficult
+94,90,12,moderate,2620,Likely
+122,103,5,light,1713,Difficult
+61,57,11,light,2933,Difficult
+69,64,10,active,2570,Likely
+82,51,4,light,3117,Very Difficult
+74,49,5,light,2002,Difficult
+59,54,5,very_active,3228,Likely
+94,88,8,active,2940,Likely
+101,66,10,light,1915,Difficult
+93,89,7,moderate,3063,Likely
+95,60,9,sedentary,2482,Difficult
+71,68,8,sedentary,2314,Likely
+71,67,10,sedentary,3484,Difficult
+79,48,2,active,3264,Very Difficult
+117,111,7,light,3300,Difficult
+95,75,10,very_active,3817,Difficult
+87,63,2,light,2254,Very Difficult
+97,89,9,moderate,2079,Likely
+125,96,11,light,2691,Difficult
+117,110,2,very_active,3635,Difficult
+68,65,7,moderate,1817,Likely
+120,100,5,sedentary,1899,Difficult
+122,106,9,moderate,1930,Likely
+101,77,5,light,2149,Difficult
+99,75,12,sedentary,3239,Very Difficult
+116,113,4,very_active,2594,Likely
+122,111,2,sedentary,2416,Very Difficult
+119,97,5,light,1747,Difficult
+121,115,10,light,3364,Difficult
+79,59,10,moderate,3033,Difficult
+101,96,5,active,2969,Likely
+89,68,9,sedentary,3507,Very Difficult
+114,96,2,moderate,2841,Very Difficult
+76,68,9,sedentary,2874,Difficult
+89,80,4,sedentary,2197,Difficult
+62,54,10,active,2277,Likely
+105,90,7,light,2235,Difficult
+97,63,5,sedentary,3122,Very Difficult
+130,97,11,sedentary,1970,Likely
+109,74,3,sedentary,1989,Difficult
+77,55,9,light,2037,Difficult
+113,78,11,light,2887,Very Difficult
+69,46,10,moderate,2443,Likely
+130,121,11,sedentary,3155,Difficult
+71,59,9,light,2109,Likely
+67,64,12,sedentary,2484,Likely
+64,45,11,sedentary,2540,Difficult
+96,83,10,active,2181,Likely
+100,78,5,very_active,3780,Difficult
+123,92,6,moderate,2657,Difficult
+84,60,12,sedentary,1876,Likely
+124,114,4,active,2141,Likely
+57,45,11,sedentary,2361,Likely
+81,60,2,very_active,3530,Very Difficult
+96,88,3,active,2977,Difficult
+123,103,2,light,2641,Very Difficult
+69,60,8,active,3488,Difficult
+128,108,11,very_active,2913,Likely
+67,55,5,light,2490,Difficult
+124,96,10,moderate,2514,Likely
+68,55,4,moderate,2588,Difficult
+130,121,7,active,2822,Likely
+60,55,7,moderate,2953,Likely
+60,56,2,moderate,2552,Likely
+111,84,2,light,1786,Difficult
+119,90,8,moderate,1851,Likely
+61,57,7,light,3217,Difficult
+77,57,11,active,2821,Difficult
+101,74,10,moderate,2848,Difficult
+102,82,3,light,2128,Very Difficult
+63,60,6,sedentary,3220,Difficult
+130,103,12,active,2122,Likely
+97,90,2,moderate,2836,Difficult
+112,107,2,moderate,2412,Likely
+104,70,2,sedentary,3049,Very Difficult
+70,63,8,sedentary,2983,Difficult
+88,55,10,sedentary,2389,Difficult
+56,45,11,active,2956,Likely
+55,50,2,moderate,1895,Likely
+68,49,3,moderate,2265,Difficult
+114,98,3,light,2969,Very Difficult
+59,54,12,light,3298,Difficult
+56,46,7,light,2167,Likely
+70,56,11,light,2163,Likely
+115,90,6,active,2104,Difficult
+115,96,7,light,3274,Very Difficult
+104,71,3,active,3191,Very Difficult
+109,93,6,light,2772,Difficult
+65,51,5,sedentary,2090,Difficult
+72,55,6,moderate,2844,Difficult
+112,97,2,light,2704,Very Difficult
+66,53,2,sedentary,2116,Very Difficult
+94,61,8,sedentary,3206,Very Difficult
+129,119,4,light,2192,Difficult
+112,78,7,sedentary,3390,Very Difficult
+55,48,3,light,3263,Very Difficult
+76,68,12,very_active,3035,Likely
+90,81,3,light,1976,Likely
+90,70,4,light,2990,Very Difficult
+95,71,12,sedentary,2200,Difficult
+90,68,8,sedentary,2439,Difficult
+58,54,2,active,2291,Likely
+97,67,10,light,2394,Difficult
+112,88,6,sedentary,3407,Very Difficult
+118,98,10,light,1789,Likely
+74,60,4,sedentary,3318,Very Difficult
+115,104,7,light,3153,Difficult
+114,80,6,light,2618,Very Difficult
+66,57,3,moderate,1860,Likely
+116,108,6,very_active,2958,Likely
+85,79,12,light,2941,Difficult
+129,126,10,active,3220,Difficult
+101,73,9,active,2715,Difficult
+82,69,4,active,3106,Difficult
+104,78,10,active,2337,Likely
+59,49,12,moderate,2873,Likely
+130,99,11,very_active,2534,Likely
+64,45,12,very_active,2760,Likely
+118,84,4,moderate,1831,Difficult
+110,76,7,sedentary,2143,Difficult
+120,92,6,very_active,3449,Difficult
+72,69,2,light,1841,Likely
+56,46,11,moderate,2492,Likely
+105,102,5,active,2175,Likely
+97,90,3,active,2534,Likely
+74,65,4,active,3240,Difficult
+58,47,9,very_active,3664,Likely
+122,90,3,sedentary,1957,Difficult
+130,127,5,very_active,3591,Likely
+82,60,2,moderate,2022,Difficult
+67,55,12,sedentary,3345,Difficult
+59,54,6,sedentary,2403,Likely
+58,46,8,light,3367,Difficult
+120,108,11,moderate,2389,Likely
+105,75,2,light,2462,Very Difficult
+70,66,2,light,2369,Difficult
+113,79,9,light,2885,Very Difficult
+85,58,11,light,1950,Likely
+98,66,5,sedentary,2249,Very Difficult
+74,65,7,active,3077,Likely
+57,53,10,sedentary,3372,Difficult
+109,98,10,light,3137,Difficult
+65,51,9,light,3199,Difficult
+97,63,12,sedentary,3331,Very Difficult
+98,84,5,light,1772,Likely
+62,47,10,sedentary,3390,Difficult
+111,107,9,very_active,2301,Likely
+65,51,8,light,1964,Likely
+108,74,10,light,2327,Difficult
+68,49,4,moderate,3072,Difficult
+66,57,10,sedentary,2311,Likely
+56,49,2,sedentary,1991,Difficult
+100,90,6,very_active,2733,Likely
+125,107,5,moderate,2793,Difficult
+101,95,8,moderate,2670,Likely
+80,53,10,moderate,2405,Likely
+97,81,12,sedentary,2455,Likely
+100,76,2,light,1768,Difficult
+126,104,12,sedentary,2879,Difficult
+98,80,6,sedentary,3534,Very Difficult
+57,48,9,sedentary,3130,Difficult
+68,58,6,light,3201,Very Difficult
+74,47,6,moderate,2520,Difficult
+59,55,8,moderate,2888,Likely
+113,84,7,very_active,3372,Difficult
+67,58,9,sedentary,2084,Likely
+124,117,5,active,2682,Likely
+97,62,4,moderate,2123,Difficult
+123,118,7,moderate,1956,Likely
+118,98,8,light,2901,Difficult
+109,89,4,moderate,2964,Difficult
+72,64,6,sedentary,3221,Difficult
+119,109,11,sedentary,2536,Likely
+123,117,8,light,2709,Difficult
+104,72,5,very_active,2903,Difficult
+83,65,9,very_active,2956,Likely
+116,97,3,moderate,2281,Difficult
+91,83,6,sedentary,3465,Difficult
+65,59,5,light,1702,Likely
+115,84,5,light,2966,Very Difficult
+101,86,11,sedentary,3058,Difficult
+93,76,4,light,2099,Difficult
+96,76,5,light,3111,Very Difficult
+128,117,8,active,3081,Likely
+122,107,10,active,2814,Likely
+64,46,9,sedentary,2756,Difficult
+111,80,11,moderate,2979,Difficult
+61,47,3,very_active,3244,Difficult
+109,92,12,active,3162,Likely
+73,54,8,light,3373,Very Difficult
+68,47,11,active,3401,Difficult
+89,74,6,active,3470,Difficult
+102,72,8,moderate,2328,Difficult
+78,64,3,active,3300,Very Difficult
+66,61,9,moderate,2110,Likely
+104,79,9,active,2428,Likely
+62,52,12,sedentary,2340,Likely
+112,81,2,light,3368,Very Difficult
+96,81,10,active,3442,Difficult
+59,48,5,sedentary,1902,Likely
+79,68,11,active,2026,Likely
+98,88,12,sedentary,2652,Likely
+65,51,11,active,2595,Likely
+119,99,4,very_active,2494,Likely
+56,47,12,moderate,2065,Likely
+92,57,11,sedentary,3054,Very Difficult
+94,76,5,very_active,3687,Difficult
+126,122,9,very_active,3991,Likely
+56,45,6,light,3235,Very Difficult
+113,110,9,sedentary,2238,Likely
+77,71,6,very_active,3731,Likely
+83,70,3,moderate,2952,Difficult
+118,114,12,sedentary,3597,Difficult
+105,94,11,sedentary,2657,Likely
+66,51,2,very_active,2767,Difficult
+111,89,5,moderate,2572,Difficult
+119,105,9,moderate,3118,Difficult
+107,86,9,moderate,2029,Likely
+115,81,12,light,2333,Difficult
+87,81,4,sedentary,2666,Likely
+122,117,11,very_active,2934,Likely
+89,84,8,light,3051,Difficult
+125,111,2,active,2396,Difficult
+117,95,5,sedentary,2544,Difficult
+82,48,8,very_active,3245,Difficult
+114,86,8,moderate,3156,Difficult
+99,88,8,sedentary,2947,Difficult
+90,76,11,light,3320,Difficult
+94,63,12,light,3080,Difficult
+66,57,2,light,3011,Very Difficult
+92,88,11,moderate,3087,Likely
+103,78,4,moderate,2285,Difficult
+86,75,4,moderate,2865,Difficult
+98,93,5,sedentary,1861,Likely
+90,84,8,moderate,2222,Likely
+84,54,11,light,3249,Very Difficult
+109,93,3,sedentary,3236,Very Difficult
+80,65,8,moderate,2576,Likely
+106,96,5,sedentary,3378,Very Difficult
+106,82,5,moderate,3177,Difficult
+120,91,5,very_active,2882,Difficult
+73,46,6,moderate,1911,Likely
+101,77,8,moderate,2901,Difficult
+114,105,6,sedentary,3299,Difficult
+97,62,7,active,2576,Difficult
+110,101,3,moderate,2137,Likely
+87,72,5,active,3069,Difficult
+126,120,7,sedentary,3393,Difficult
+82,52,11,very_active,2237,Likely
+84,72,2,light,1926,Difficult
+66,48,7,sedentary,2463,Difficult
+120,116,4,sedentary,3247,Difficult
+92,79,12,sedentary,2936,Difficult
+86,70,11,moderate,2575,Likely
+99,79,9,sedentary,2832,Difficult
+97,83,11,moderate,2466,Likely
+92,85,9,sedentary,2519,Likely
+79,54,11,moderate,1802,Likely
+114,97,12,active,2389,Likely
+79,50,7,sedentary,3043,Very Difficult
+81,50,5,moderate,3123,Very Difficult
+95,81,11,active,3023,Likely
+122,98,3,active,2432,Difficult
+95,75,3,light,2377,Very Difficult
+91,88,5,sedentary,2104,Likely
+114,108,12,moderate,2369,Likely
+85,61,11,very_active,3810,Difficult
+117,89,6,light,2841,Very Difficult
+129,96,10,sedentary,3313,Very Difficult
+59,45,4,moderate,3029,Difficult
+114,102,5,active,2428,Likely
+75,70,6,moderate,3047,Likely
+115,95,10,light,2889,Difficult
+71,50,9,sedentary,2918,Difficult
+98,86,11,light,3092,Difficult
+72,52,12,moderate,2809,Difficult
+115,101,6,sedentary,2610,Difficult
+68,55,11,moderate,2825,Likely
+74,50,3,light,2304,Very Difficult
+121,92,3,very_active,2276,Difficult
+100,67,10,light,2120,Difficult
+113,80,5,very_active,2643,Difficult
+67,56,10,moderate,3153,Likely
+128,93,11,sedentary,2483,Difficult
+88,77,7,sedentary,3290,Very Difficult
+76,49,4,very_active,2758,Difficult
+62,47,3,moderate,1817,Likely
+119,109,6,very_active,3262,Difficult
+122,104,10,light,1921,Likely
+118,103,6,active,2329,Likely
+107,73,6,light,1750,Difficult
+93,62,2,sedentary,2780,Very Difficult
+86,65,6,moderate,1988,Likely
+97,91,6,moderate,2914,Likely
+67,46,12,light,1810,Likely
+71,47,11,light,1701,Likely
+114,92,12,light,3124,Difficult
+109,80,2,light,2055,Very Difficult
+123,95,10,light,2075,Difficult
+77,45,2,moderate,2849,Very Difficult
+101,82,4,moderate,2621,Difficult
+111,105,11,sedentary,2298,Likely
+124,101,6,light,1893,Difficult
+110,83,11,sedentary,2906,Difficult
+68,49,4,moderate,2385,Difficult
+68,56,11,moderate,2143,Likely
+63,60,2,light,2064,Likely
+59,53,3,light,3091,Difficult
+58,50,9,sedentary,1884,Likely
+57,47,7,very_active,2679,Likely
+121,117,5,sedentary,2778,Difficult
+97,89,3,moderate,2950,Difficult
+107,90,10,light,1856,Likely
+117,85,11,moderate,2491,Likely
+86,71,5,light,3175,Difficult
+78,50,11,light,2689,Difficult
+115,105,5,active,3298,Difficult
+102,99,4,light,2573,Likely
+88,82,2,sedentary,2268,Difficult
+68,59,3,light,2735,Difficult
+85,80,11,light,2018,Likely
+96,82,2,active,3108,Very Difficult
+101,94,8,sedentary,2999,Difficult
+85,74,5,sedentary,2641,Difficult
+63,49,2,light,1713,Difficult
+120,115,3,moderate,2748,Difficult
+106,94,11,sedentary,3531,Difficult
+78,52,10,very_active,2456,Likely
+97,62,8,moderate,2239,Difficult
+118,93,8,moderate,2092,Difficult
+118,83,6,sedentary,2960,Very Difficult
+109,105,4,sedentary,2207,Likely
+106,81,10,moderate,2104,Likely
+117,84,10,sedentary,2336,Difficult
+81,70,11,moderate,2205,Likely
+57,52,11,very_active,2421,Likely
+129,107,9,active,2577,Likely
+55,48,3,active,2597,Likely
+112,78,4,sedentary,3347,Very Difficult
+107,95,7,sedentary,2502,Difficult
+88,80,12,moderate,2783,Likely
+120,85,2,moderate,2316,Difficult
+62,49,10,very_active,3445,Likely
+76,46,11,sedentary,3042,Difficult
+108,95,5,active,2378,Likely
+119,88,10,light,2932,Very Difficult
+83,66,10,very_active,2615,Likely
+80,60,2,moderate,2111,Difficult
+86,74,9,active,2205,Likely
+86,67,10,sedentary,3461,Very Difficult
+108,84,5,light,2612,Difficult
+102,80,9,sedentary,2980,Difficult
+120,96,8,very_active,3887,Difficult
+118,108,2,sedentary,1851,Difficult
+122,99,7,sedentary,2192,Difficult
+103,81,12,light,2717,Difficult
+61,53,9,light,3263,Difficult
+79,66,3,light,2890,Very Difficult
+57,48,7,sedentary,2402,Likely
+82,75,2,moderate,3076,Difficult
+103,96,12,very_active,3199,Likely
+84,55,9,active,2035,Difficult
+73,65,6,sedentary,3530,Difficult
+101,66,12,light,2104,Difficult
+94,68,2,very_active,2455,Difficult
+119,87,7,moderate,2588,Difficult
+64,53,12,light,2893,Difficult
+101,70,3,light,2589,Very Difficult
+84,59,12,light,2792,Difficult
+99,86,10,light,2233,Likely
+91,79,4,light,2335,Difficult
+64,57,6,sedentary,3539,Difficult
+77,73,5,moderate,2358,Likely
+76,57,12,light,1798,Likely
+124,113,5,moderate,2213,Likely
+73,66,7,light,2143,Likely
+130,109,4,active,2668,Difficult
+91,63,9,very_active,3101,Difficult
+129,120,6,moderate,1833,Likely
+64,59,7,sedentary,2943,Difficult
+124,117,2,light,3097,Very Difficult
+64,57,12,moderate,2406,Likely
+124,119,11,light,2035,Likely
+116,105,7,very_active,2436,Likely
+83,59,5,active,3376,Very Difficult
+122,99,7,light,3279,Very Difficult
+112,93,4,moderate,2727,Difficult
+123,99,10,moderate,2282,Likely
+71,55,7,moderate,1801,Likely
+71,53,5,moderate,2667,Difficult
+67,47,10,moderate,2400,Likely
+84,76,11,active,2960,Likely
+57,52,5,light,2836,Difficult
+96,65,4,light,3183,Very Difficult
+102,89,9,sedentary,3496,Difficult
+96,64,12,light,2184,Difficult
+107,97,8,light,3390,Difficult
+57,46,4,moderate,1882,Likely
+78,53,9,active,2619,Likely
+98,72,4,light,2082,Very Difficult
+88,56,8,active,2028,Difficult
+72,66,4,moderate,2123,Likely
+89,82,9,active,2986,Likely
+114,94,7,active,2385,Likely
+107,102,7,sedentary,2528,Likely
+78,73,9,sedentary,1980,Likely
+78,45,11,sedentary,2226,Difficult
+121,89,11,light,3249,Very Difficult
+101,70,2,light,3070,Very Difficult
+55,52,11,active,3464,Difficult
+105,76,10,active,3403,Difficult
+89,85,5,moderate,2749,Likely
+55,47,9,sedentary,2636,Likely
+85,64,4,active,2052,Difficult
+122,103,10,sedentary,2557,Difficult
+58,54,4,moderate,3181,Likely
+65,61,2,very_active,3957,Difficult
+109,78,10,sedentary,2781,Very Difficult
+119,109,3,sedentary,3075,Very Difficult
+107,87,4,very_active,3583,Difficult
+61,57,12,light,2678,Likely
+116,111,11,moderate,2885,Likely
+105,101,2,very_active,3605,Difficult
+73,59,4,moderate,3151,Difficult
+58,54,2,sedentary,2022,Difficult
+91,58,6,light,2161,Very Difficult
+100,69,2,sedentary,2699,Very Difficult
+95,87,8,moderate,2592,Likely
+61,54,6,active,2782,Likely
+105,100,10,very_active,3953,Likely
+121,109,10,active,2109,Likely
+124,98,7,very_active,3908,Difficult
+98,78,8,light,2948,Difficult
+77,72,5,moderate,2036,Likely
+123,105,3,sedentary,2224,Very Difficult
+76,54,8,moderate,2155,Likely
+84,49,10,sedentary,1978,Difficult
+91,80,5,sedentary,2790,Difficult
+129,95,7,active,2975,Difficult
+69,48,12,sedentary,2766,Difficult
+106,71,4,moderate,2874,Very Difficult
+91,65,9,sedentary,1972,Likely
+126,106,6,active,3454,Very Difficult
+129,126,5,very_active,3615,Likely
+61,52,9,sedentary,2389,Likely
+112,90,9,active,3140,Difficult
+110,81,6,moderate,2441,Difficult
+71,49,8,very_active,2461,Likely
+121,109,6,very_active,2973,Likely
+56,46,4,sedentary,2127,Difficult
+72,68,4,sedentary,2584,Likely
+120,96,4,light,2071,Very Difficult
+94,67,2,light,3178,Very Difficult
+101,75,3,sedentary,2226,Very Difficult
+103,80,9,moderate,2194,Likely
+64,50,2,moderate,3181,Very Difficult
+60,47,6,light,3225,Very Difficult
+92,86,3,moderate,2454,Likely
+127,97,2,moderate,3008,Very Difficult
+116,89,7,sedentary,2852,Very Difficult
+130,103,5,active,2106,Difficult
+92,58,6,moderate,1937,Difficult
+125,92,10,very_active,3777,Difficult
+99,66,2,moderate,2857,Very Difficult
+108,87,7,active,3015,Difficult
+79,48,9,moderate,2623,Difficult
+109,99,11,very_active,2571,Likely
+127,96,12,sedentary,2365,Difficult
+107,73,3,sedentary,3154,Very Difficult
+76,52,5,sedentary,2542,Difficult
+122,99,3,sedentary,2030,Very Difficult
+63,49,4,light,2330,Difficult
+98,83,8,sedentary,3364,Very Difficult
+127,111,8,moderate,2877,Difficult
+96,80,7,moderate,2768,Difficult
+116,102,2,very_active,3300,Very Difficult
+101,70,11,light,3051,Difficult
+78,50,2,active,2947,Very Difficult
+120,94,11,sedentary,2313,Difficult
+96,89,11,very_active,3156,Likely
+73,47,7,light,2611,Difficult
+60,46,11,sedentary,2838,Difficult
+118,95,2,sedentary,2371,Very Difficult
+102,80,6,moderate,3002,Difficult
+65,57,11,sedentary,3569,Difficult
+79,48,6,light,1883,Difficult
+84,81,8,sedentary,2569,Likely
+91,80,2,sedentary,3448,Very Difficult
+104,75,8,moderate,2919,Difficult
+73,70,9,active,2955,Likely
+113,79,10,very_active,3278,Difficult
+70,64,11,sedentary,3397,Difficult
+118,106,8,moderate,2336,Likely
+120,110,2,sedentary,2241,Difficult
+64,56,5,light,2920,Difficult
+118,92,3,light,2340,Very Difficult
+107,90,10,sedentary,2642,Difficult
+124,121,11,light,3273,Difficult
+79,67,12,sedentary,3154,Difficult
+124,104,2,moderate,2433,Difficult
