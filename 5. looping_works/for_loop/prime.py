@@ -12,23 +12,29 @@ we are purposefully ignoring 1 and the number we got from user
 
 number = int(input('enter number: '))
 
-is_prime = False
+is_prime = True
 
-for i in range(2,number):
+if number <= 1:
 
-    if number % i == 0:
-
-        is_prime = True
-
-        break
-
-if is_prime == False:
-
-    print("Prime")
+    print("not prime")
 
 else:
 
-    print("Not Prime")
+    for i in range(2,number):
+
+        if number % i == 0:
+
+            is_prime = False
+
+            break
+
+    if is_prime == True:
+
+        print("Prime")
+
+    else:
+
+        print("Not Prime")
 
 
 """

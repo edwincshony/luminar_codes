@@ -19,4 +19,4 @@ else:
 
 # print(list(sequence))
 
-# print(100 in sequence)
+# print(99 in sequence)

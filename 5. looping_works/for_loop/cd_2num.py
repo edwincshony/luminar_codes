@@ -5,6 +5,10 @@ print common divisors of 2 numbers
 number1 = int(input('enter number1: '))
 number2 = int(input('enter number2: '))
 
+"""
+We find the smallest number so that we only check possible common divisors
+and avoid unnecessary iterations.
+"""
 
 if number1>number2:
 

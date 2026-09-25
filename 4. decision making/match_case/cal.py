@@ -18,25 +18,30 @@ num2 = int(input("enter number2: "))
 
 operation = input("enter opeartion symbol: ")
 
-match operation:
-    case "+":
-        result = num1 + num2
-        print("result is:",result)
-    case "-":
-        result = num1 - num2
-        print("result is:",result)
-    case "*":
-        result = num1 * num2
-        print("result is:",result)
-    case "/":
-        result = num1 / num2
-        print("result is:",result)
-    case "%":
-        result = num1 % num2
-        print("result is:",result)
-    case "**":
-        result = num1 ** num2
-        print("result is:",result)
-    case "//":
-        result = num1 // num2
-        print("result is:",result)
+if num2 == 0 and operation in ["/", "%", "//"]:
+    print("Cannot divide by zero")
+else:
+    match operation:
+        case "+":
+            result = num1 + num2
+            print("result is:", result)
+        case "-":
+            result = num1 - num2
+            print("result is:", result)
+        case "*":
+            result = num1 * num2
+            print("result is:", result)
+        case "/":
+            result = num1 / num2
+            print("result is:", result)
+        case "%":
+            result = num1 % num2
+            print("result is:", result)
+        case "**":
+            result = num1 ** num2
+            print("result is:", result)
+        case "//":
+            result = num1 // num2
+            print("result is:", result)
+        case _:
+            print("Invalid operation")
