@@ -44,3 +44,4 @@ print(is_positive(89))
 #def map() = from a collection of objects apply a functionality on all values
 # def filter() = apply a specific condition and filter the values
 # def reduce() = process all data and return a single output
+

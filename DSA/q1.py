@@ -52,15 +52,15 @@ sample input3:
     
 #3rd approach most relaible
 
-# lst = [1,2, 3, 4, 5]
-# s = set(lst)
+lst = [1,2, 3, 4, 5]
+s = set(lst)
 
-# i = 1
-# while True:
-#     if i not in s:
-#         print(i)
-#         break
-#     i += 1
+i = 1
+while True:
+    if i not in s:
+        print(i)
+        break
+    i += 1
 
 def missing_least_number(arr):
 

@@ -235,20 +235,272 @@ balance = "DEF"
 # else:
 #     print("not perfect")
 
-number1 = int(input("enter number1: "))
-number2 = int(input("enter number2: "))
+# number1 = int(input("enter number1: "))
+# number2 = int(input("enter number2: "))
 
-if number1>number2:
-    smallest=number2
-else:
-    smallest=number1
+# if number1>number2:
+#     smallest=number2
+# else:
+#     smallest=number1
 
-gcd=1
+# gcd=1
 
-for i in range(1,smallest):
+# for i in range(1,smallest):
 
-    if number1%i == 0 and number2%i == 0:
+#     if number1%i == 0 and number2%i == 0:
 
-        gcd=i
+#         gcd=i
 
-print(gcd)
+# print(gcd)
+
+# number = int(input('enter number: '))
+# is_prime = True
+# if number<=1:
+#     print("Not prime")
+# else:
+#     for i in range(2,number):
+#         if number%i==0:
+#             is_prime = False
+#             break
+#     if is_prime==True:
+#         print("prime")
+#     else:
+#         print("nprime")
+
+# word = input("enter word: ")
+
+# result = ""
+
+# for  i in range(len(word)-1,-1,-1):
+
+#     result += word[i]
+
+# if result == word:
+#     print("palindrome")
+# else:
+#     print("npalindrome")
+
+# find closest number to zero
+# def closest_to_zero(nums):
+
+#     closest = nums[0]
+
+#     for num in nums:
+#         if abs(num) < abs(closest):
+#             closest=num
+         
+#         elif abs(num) == abs(closest) and num>closest:
+#             closest=num
+
+#     return closest
+
+# print(closest_to_zero([-4, -2, -1,1, 4, 8]))
+
+# word1 = "ieeau"
+# word2 = "rnbb"
+
+# result = ""
+
+# max_len = max(len(word1), len(word2))
+
+# for i in range(max_len):
+
+#     # result += word1[i] + word2[i]
+
+#     # If character exists in word1, take it.
+#     if i < len(word1):
+#         result += word1[i]
+
+#     # If character exists in word2, take it.
+#     if i < len(word2):
+#         result += word2[i]
+
+# print(result)
+
+# def merge_alternately(word1, word2):
+
+#     result = []
+
+#     for i in range(max(len(word1),len(word2))): 
+#         if i < len(word1):
+#             result+=word1[i]
+#         if i<len(word2):
+#             result+=word2[i]
+
+#     return "".join(result)
+
+# print(merge_alternately('ieeau', 'rnbb'))
+
+# def roman_to_int(s):
+
+#     values = {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}
+
+#     total = 0
+
+#     for i in range(len(s)):
+#         value = values[s[i]]
+
+#         if i+1 < len(s) and value < values[s[i+1]]:
+
+#             total -= value
+
+#         else:
+
+#             total += value
+#     return total
+# print(roman_to_int('MCMXCIV'))
+
+# def is_subsequence(s, t):
+
+#     i=0
+#     for ch in t:
+#         if i<len(s) and s[i] == ch:
+#             i+=1
+#     return i==len(s)
+
+# print(is_subsequence('ayc', 'ahbgdc'))
+
+# strs = ["flower","flow","flight"]
+# strs.sort()
+
+# first,last = strs[0],strs[-1]
+# i=0
+# result=""
+
+# while i<len(first):
+#     if first[i] == last[i]:
+#         result += first[i]
+#         i += 1
+#     else:
+#         break
+
+# print(result)
+
+# def contains_duplicate(nums):
+
+#     return len(set(nums)) < len(nums)
+
+# print(contains_duplicate([1,3,2]))
+
+# note = "aabb"
+# magazine = "ab"
+
+# magazine_freq = {}
+
+# for l in magazine:
+#     if l in magazine_freq:
+
+#         magazine_freq[l] += 1
+#     else:
+#         magazine_freq[l] =1
+# for l in note:
+#     if l in magazine_freq and magazine_freq[l]>0:
+#         magazine_freq[l]-=1
+#     else:
+#         print("not ransome")
+#         break
+# else:
+#     print("ransome")
+
+# arr = [2,3,4,5]
+
+# target = 10
+
+# arr.sort()
+# found=False
+
+# left=0
+# right = len(arr)-1
+
+# while(left<right):
+
+#     current_sum = arr[left] + arr[right]
+
+#     if current_sum == target:
+
+#         print(arr[left],arr[right])
+
+#         found=True
+#         break
+#     elif current_sum < target:
+#         left += 1
+
+#     else:
+#         right-=1
+# if found==False:
+#     print("pair not found")
+
+# words = ["eat", "tea", "tan", "ate", "nat", "bat"]
+
+# ana_grps = {}
+
+# for word in words:
+
+#     key = "".join(sorted(word))
+
+#     if key in ana_grps:
+#         ana_grps[key].append(word)
+#     else:
+#         ana_grps[key] = [word]
+
+# result = list(ana_grps.values())
+# print(result)
+
+# arr = [2,3,4,5]
+
+# target = 8
+
+# arr.sort()
+
+# found = False
+
+# org = arr.copy()
+
+# left = 0
+
+# right = len(arr) - 1
+
+# while(left<right):
+
+#     current_sum = arr[left] + arr[right]
+
+#     if current_sum == target:
+
+#         print(org.index(arr[left]),org.index(arr[right]))
+
+#         found = True
+
+#         break
+
+#     elif current_sum < target:
+
+#         left += 1
+
+#     else:
+
+#         right -= 1
+
+# if found == False:
+
+#     print("no pair")
+
+# lst = [1,2,4, 5]
+# s = set(lst)
+
+# i = 1
+# while True:
+#     if i not in s:
+#         print(i)
+#         break
+#     i += 1
+
+lst = [1,3, 4, 5]
+
+s = set(lst)
+
+i=1
+while True:
+    if i not in s:
+        print(i)
+        break
+    i+=1
